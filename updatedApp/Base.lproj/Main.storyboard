@@ -62,8 +62,8 @@
                                     <segue destination="I5n-VX-7ai" kind="show" id="jbu-uC-ltl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
-                                <rect key="frame" x="136" y="106" width="127" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
+                                <rect key="frame" x="139" y="106" width="122" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
@@ -87,15 +87,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Economical Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVQ-1V-PDI">
-                                <rect key="frame" x="143" y="125" width="141" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Economic Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrW-HR-c3v">
+                                <rect key="frame" x="84.5" y="129" width="245" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mrW-HR-c3v" firstAttribute="centerX" secondItem="Dse-oH-bfL" secondAttribute="centerX" id="XGJ-1R-uwX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aXM-fc-eSW"/>
                     </view>
                     <navigationItem key="navigationItem" id="j6T-RH-27S"/>
@@ -112,22 +114,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCu-sI-77C">
-                                <rect key="frame" x="145" y="121" width="124" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myanmar-front" translatesAutoresizingMaskIntoConstraints="NO" id="TjJ-vO-Vis">
                                 <rect key="frame" x="21" y="200" width="220" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
-                                <rect key="frame" x="20" y="185" width="170" height="40"/>
+                                <rect key="frame" x="28" y="185" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Rohingya Killings"/>
+                                <state key="normal" title="Rohingya Crisis"/>
                                 <connections>
                                     <segue destination="XmB-bI-bJe" kind="show" id="iEN-ef-c5F"/>
                                 </connections>
@@ -139,8 +134,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6700 deaths" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyy-SD-cJl">
-                                <rect key="frame" x="249" y="333" width="87" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2400 deaths" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyy-SD-cJl">
+                                <rect key="frame" x="249" y="333" width="88" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -162,8 +157,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK7-H5-XoI">
+                                <rect key="frame" x="112.5" y="117" width="189" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GK7-H5-XoI" firstAttribute="centerX" secondItem="gr0-fE-rYQ" secondAttribute="centerX" id="HJp-KM-44M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nEf-15-gTy"/>
                     </view>
                     <navigationItem key="navigationItem" id="Svr-7c-VdR"/>
@@ -180,17 +184,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoV-8i-qpS">
-                                <rect key="frame" x="197" y="112" width="139" height="311"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="sendEmailButtonTapped:" destination="BDw-kv-Kdv" eventType="touchUpInside" id="OpH-V7-JFP"/>
-                                    <segue destination="c04-0q-KGC" kind="show" id="Qtr-tC-rgH"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wHw-cz-UNS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mv4-5H-hfR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Rohingya Crisis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Me-Uh-cS2">
+                                                <rect key="frame" x="86" y="20" width="226" height="41"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB5-Qx-tYF">
+                                                <rect key="frame" x="26" y="69" width="372" height="585"/>
+                                                <mutableString key="text">Who: Rohingya Muslims, who are an ethnic minority group in Myanmar. 712,700 people have been displaced.
+ 
+What: Mmassacre, gang rape, village burning and looting. A case of ethnic cleansing and a hallmark of genocide.
+When: The first phase was from October 2016 to January 2017. The second was from August 2017-present. 
+Where: Myanmar, a country in Southeast Asia
+
+Why: The Rohingya are a highly persecuted Muslim group in a century old conflict. They are not considered citizens under the Myanmar government. The main opposers are nationalist Buddist groups that demand the expulsion of Muslims from Myanmar, which has resulted in violence and retaliation. The Myanmar leader, Win Mynit, denies claims of genocide by the military.
+
+How: Myanmar's armed forces and police use violence to launch the major crackdown on the Rohingya people. Military operations have displaced hundreds of thousands</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="link text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="73g-Qv-I5Y">
+                                                <rect key="frame" x="45" y="662" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoV-8i-qpS">
+                                                <rect key="frame" x="88" y="715" width="249" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Email Corresponding Representative"/>
+                                                <connections>
+                                                    <action selector="sendEmailButtonTapped:" destination="BDw-kv-Kdv" eventType="touchUpInside" id="OpH-V7-JFP"/>
+                                                    <segue destination="c04-0q-KGC" kind="show" id="Qtr-tC-rgH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="3Me-Uh-cS2" firstAttribute="centerX" secondItem="mv4-5H-hfR" secondAttribute="centerX" constant="-8" id="GnP-aX-EYa"/>
+                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="leading" secondItem="mv4-5H-hfR" secondAttribute="leading" constant="26" id="gS8-K7-5YB"/>
+                                            <constraint firstAttribute="trailing" secondItem="hB5-Qx-tYF" secondAttribute="trailing" constant="16" id="meb-0f-fNC"/>
+                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="top" secondItem="3Me-Uh-cS2" secondAttribute="bottom" constant="8" id="ttv-FI-T4F"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mv4-5H-hfR" secondAttribute="trailing" id="0e7-nk-W4A"/>
+                                    <constraint firstItem="mv4-5H-hfR" firstAttribute="width" secondItem="wHw-cz-UNS" secondAttribute="width" multiplier="0.961353" constant="15.999858000000017" id="Eu6-Mc-qRp"/>
+                                    <constraint firstItem="mv4-5H-hfR" firstAttribute="top" secondItem="wHw-cz-UNS" secondAttribute="top" id="LOc-HS-g5H"/>
+                                    <constraint firstItem="mv4-5H-hfR" firstAttribute="height" secondItem="wHw-cz-UNS" secondAttribute="height" multiplier="0.979328" priority="250" constant="16.000128000000018" id="Nq6-kc-rel"/>
+                                    <constraint firstAttribute="bottom" secondItem="mv4-5H-hfR" secondAttribute="bottom" id="Z6C-aj-fpe"/>
+                                    <constraint firstItem="mv4-5H-hfR" firstAttribute="leading" secondItem="wHw-cz-UNS" secondAttribute="leading" id="qhH-hV-e0h"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wHw-cz-UNS" firstAttribute="leading" secondItem="NYn-3v-j4p" secondAttribute="leading" id="TUT-FI-4hd"/>
+                            <constraint firstItem="wHw-cz-UNS" firstAttribute="bottom" secondItem="NYn-3v-j4p" secondAttribute="bottom" id="gfb-7a-7zE"/>
+                            <constraint firstItem="NYn-3v-j4p" firstAttribute="trailing" secondItem="wHw-cz-UNS" secondAttribute="trailing" id="jPq-Fo-FAM"/>
+                            <constraint firstItem="wHw-cz-UNS" firstAttribute="top" secondItem="NYn-3v-j4p" secondAttribute="top" id="z0l-fM-dh7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NYn-3v-j4p"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rg9-UT-pt9"/>
@@ -228,8 +293,8 @@
         <!--View Controller-->
         <scene sceneID="AsI-Nh-mfR">
             <objects>
-                <viewController id="c04-0q-KGC" customClass="ViewController" customModule="mailTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zTm-tS-gvx">
+                <viewController id="c04-0q-KGC" customClass="ViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zTm-tS-gvx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -249,18 +314,34 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="testy" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
-                                <rect key="frame" x="16" y="211" width="382" height="144"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
+                                <rect key="frame" x="16" y="211" width="382" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="enj-ff-8B3"/>
                                 </constraints>
+                                <mutableString key="text">Dear Representative/Senator ______________: 
+
+As a researcher and a constituent or student, I am deeply concerned about the [humanitarian crisis in ___ country] and the consequences residents and humans will face should this issue not be fixed. If lawmakers can’t put politics aside, this crisis will compromise the lives of thousands of innocent humans including children. We cannot let this occur. Now is the time to become more globally active as a nation and aid our neighboring countries. 
+
+There are many resources available to address some of the issues of [insert the issue] 
+For example: 
+ [Give a brief description of your research or organizations focused on the issue]. The decisions made in the coming days will have major implications for the future of America’s economy and global competitiveness. 
+
+I urge you to work with your colleagues in Congress to find a balanced approach to ensure proper resources are available to [INSERT COUNTRY} to prevent unnecessary deaths. Once again, our team is committed to solve this issue and is more than willing to work with you to do so. Thank you for your consideration. 
+
+
+Sincerely, 
+
+Your Name 
+Your Title 
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKk-Ic-vGC">
-                                <rect key="frame" x="311" y="106" width="92" height="33"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKk-Ic-vGC">
+                                <rect key="frame" x="302" y="106" width="92" height="33"/>
+                                <color key="backgroundColor" red="0.3685285343686483" green="0.54761287142852733" blue="0.87408921632124348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="92" id="LYu-ri-OHM"/>
                                     <constraint firstAttribute="height" constant="33" id="dK2-EA-hUa"/>
@@ -275,9 +356,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dce-Jt-1i6" firstAttribute="trailing" secondItem="djj-RI-63X" secondAttribute="trailing" constant="10" id="067-Ic-vOS"/>
                             <constraint firstItem="dce-Jt-1i6" firstAttribute="trailing" secondItem="dKk-Ic-vGC" secondAttribute="trailing" constant="11" id="2cR-nC-hR9"/>
                             <constraint firstItem="dce-Jt-1i6" firstAttribute="trailing" secondItem="T6A-X1-RaX" secondAttribute="trailing" constant="124" id="HPG-29-7eQ"/>
+                            <constraint firstItem="dce-Jt-1i6" firstAttribute="bottom" secondItem="djj-RI-63X" secondAttribute="bottom" constant="10" id="Mzm-2y-bty"/>
                             <constraint firstItem="djj-RI-63X" firstAttribute="top" secondItem="GnL-ZB-Xyr" secondAttribute="bottom" constant="19" id="NTQ-H2-kvw"/>
+                            <constraint firstItem="djj-RI-63X" firstAttribute="leading" secondItem="dce-Jt-1i6" secondAttribute="leading" constant="10" id="VQn-VN-bTN"/>
                             <constraint firstItem="dce-Jt-1i6" firstAttribute="trailing" secondItem="djj-RI-63X" secondAttribute="trailing" constant="16" id="XWZ-Om-RWV"/>
                             <constraint firstItem="T6A-X1-RaX" firstAttribute="top" secondItem="dce-Jt-1i6" secondAttribute="top" constant="19" id="c6C-Zf-v0e"/>
                             <constraint firstItem="dKk-Ic-vGC" firstAttribute="top" secondItem="dce-Jt-1i6" secondAttribute="top" constant="18" id="fSz-He-s3o"/>
@@ -298,7 +382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPv-uh-VD7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2412" y="-1112"/>
+            <point key="canvasLocation" x="2411.594202898551" y="-1112.2767857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
