@@ -14,40 +14,18 @@ class ViewController: UIViewController,MFMailComposeViewControllerDelegate {
     @IBOutlet weak var textViewBody: UITextView!
     @IBOutlet weak var textFieldSubject: UITextField!
     @IBOutlet weak var textFieldTo: UITextField!
-    @IBOutlet weak var rohingyaCrisis: UIImageView!
+
+    
     override func viewDidLoad() {
             super.viewDidLoad()
-            // create tap gesture recognizer
-//            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.imageTapped(gesture:)))
-//
-//            // add it to the image view;
-//            rohingyaCrisis.addGestureRecognizer(tapGesture)
-//            // make sure imageView can be interacted with by user
-//            rohingyaCrisis.isUserInteractionEnabled = true
         }
     
-//    @objc func imageTapped(gesture: UIGestureRecognizer) {
-//        // if the tapped view is a UIImageView then set it to imageview
-//        if (gesture.view as? UIImageView) != nil {
-//            print("Image Tapped")
-//            //Here you can initiate your new ViewController
-//
-//            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-//
-//            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "rohingyaArticleView") as! RohingyaArticleViewController
-//            self.navigationController!.pushViewController(nextViewController, animated: true)
-//            //self.present(nextViewController, animated:true, completion:nil)
-//
-//        }
-//    }
-    
-// Testing - hathamee
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     @IBAction func buttonHandlerSendEmail(_ sender: Any) {
         

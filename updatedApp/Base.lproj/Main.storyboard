@@ -62,16 +62,13 @@
                                     <segue destination="I5n-VX-7ai" kind="show" id="jbu-uC-ltl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
                                 <rect key="frame" x="194" y="119" width="122" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan-pop-decl" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-2P-4WW">
-                                <rect key="frame" x="-40" y="443" width="311" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aP-F8-6AG">
                                 <rect key="frame" x="222" y="221" width="172" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -81,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-SL-6W2">
-                                <rect key="frame" x="20" y="221" width="186" height="173"/>
+                                <rect key="frame" x="20" y="222" width="186" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="indonesia-fire"/>
                                 <connections>
@@ -97,7 +94,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="updated-icon" translatesAutoresizingMaskIntoConstraints="NO" id="ckZ-p8-Huh">
-                                <rect key="frame" x="98" y="109" width="113" height="60"/>
+                                <rect key="frame" x="98" y="109" width="113" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="explore articles by issue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cB9-y0-eSe">
@@ -115,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan | population" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99G-8o-la8">
-                                <rect key="frame" x="11" y="597" width="190" height="61"/>
+                                <rect key="frame" x="16" y="597" width="190" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -135,14 +132,12 @@
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan-pop-decl" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-2P-4WW">
+                                <rect key="frame" x="27" y="413" width="176" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="DdA-aG-juD"/>
-                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="QiW-7s-F8r"/>
-                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z0G-35-y9R"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xoq-6N-6lq" secondAttribute="trailing" constant="146" id="zMC-RK-Hjn"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="RC7-A7-j89"/>
@@ -356,129 +351,153 @@ How: Illegal burn and slash methods increase risk of uncontrolled fires.
         <scene sceneID="GGg-df-6Gg">
             <objects>
                 <viewController id="3FY-ck-CWn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gr0-fE-rYQ">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gr0-fE-rYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="myanmar-front" translatesAutoresizingMaskIntoConstraints="NO" id="TjJ-vO-Vis">
-                                <rect key="frame" x="21" y="200" width="220" height="207"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
-                                <rect key="frame" x="29" y="186" width="154" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Rohingya Crisis">
-                                    <color key="titleColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XmB-bI-bJe" kind="show" id="iEN-ef-c5F"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rohingya Muslims being targeted by military" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUT-Pa-tgM">
-                                <rect key="frame" x="249" y="226" width="124" height="139"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2400 deaths" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyy-SD-cJl">
-                                <rect key="frame" x="249" y="333" width="88" height="18"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8y-42-ULQ">
-                                <rect key="frame" x="249" y="353" width="139" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Click to read more &gt;"/>
-                                <connections>
-                                    <segue destination="XmB-bI-bJe" kind="show" id="BtX-gU-8Hz"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📍Myanmar (SE Asia)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvA-PK-EmY">
-                                <rect key="frame" x="247" y="240" width="151" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK7-H5-XoI">
-                                <rect key="frame" x="112.5" y="117" width="189" height="41"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-RR-fpx">
-                                <rect key="frame" x="249" y="456" width="151" height="184"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="184" id="gLg-7t-kyF"/>
-                                    <constraint firstAttribute="width" constant="151" id="ngy-DB-Mcf"/>
-                                </constraints>
-                                <string key="text">📍Pakistan
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-LG-Lx3">
+                                <rect key="frame" x="-1" y="88" width="415" height="833"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMu-G5-pXw">
+                                        <rect key="frame" x="1" y="0.0" width="413" height="820"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
+                                                <rect key="frame" x="25" y="66" width="154" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <state key="normal" title="Rohingya Crisis">
+                                                    <color key="titleColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="XmB-bI-bJe" kind="show" id="iEN-ef-c5F"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUT-Pa-tgM">
+                                                <rect key="frame" x="243" y="80" width="155" height="146"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">📍Myanmar (SE Asia)
+
+Rohingya Muslims being targeted by military  2400 deaths</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8y-42-ULQ">
+                                                <rect key="frame" x="238" y="499" width="139" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Click to read more &gt;"/>
+                                                <connections>
+                                                    <segue destination="XmB-bI-bJe" kind="show" id="BtX-gU-8Hz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKa-TP-Dqk">
+                                                <rect key="frame" x="246" y="769" width="139" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Click to read more &gt;"/>
+                                                <connections>
+                                                    <segue destination="vjo-bz-W5q" kind="show" id="tSE-pU-0ad"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK7-H5-XoI">
+                                                <rect key="frame" x="112" y="25" width="189" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Child-Marrige-Pakistan" translatesAutoresizingMaskIntoConstraints="NO" id="0NO-tS-AVP">
+                                                <rect key="frame" x="14" y="307" width="220" height="207"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-RR-fpx">
+                                                <rect key="frame" x="238" y="307" width="151" height="184"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">📍Pakistan
 
 Court validates forced marriage between 14 year old girl and abuductor 
 
 Violates the Child Marriage Restraint Act</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfe-bY-esN">
-                                <rect key="frame" x="229" y="633" width="179" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-cY-Y83">
+                                                <rect key="frame" x="14" y="267" width="369" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <state key="normal" title="Girls Forced Into Underage Marriages">
+                                                    <color key="titleColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="xDW-Jy-eda" kind="show" id="lAH-4V-Z40"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myanmar-front" translatesAutoresizingMaskIntoConstraints="NO" id="TjJ-vO-Vis">
+                                                <rect key="frame" x="25" y="80" width="209" height="196"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfe-bY-esN">
+                                                <rect key="frame" x="226" y="220" width="179" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Click to read more &gt;"/>
+                                                <connections>
+                                                    <segue destination="xDW-Jy-eda" kind="show" id="Y5o-mY-FlN"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Libyan slave trade" translatesAutoresizingMaskIntoConstraints="NO" id="Bzp-gV-kwO">
+                                                <rect key="frame" x="11" y="582" width="226" height="157"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="📍Libya  African migrants are being tricked into a modern slave trade system  400,000-1 million trapped in Libya  " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGk-ak-KUH">
+                                                <rect key="frame" x="246" y="582" width="157" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwn-ZK-MbF">
+                                                <rect key="frame" x="8" y="549" width="268" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <state key="normal" title="Modern Libyan Slave Trade">
+                                                    <color key="titleColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="IGn-jx-Wjg"/>
+                                    <constraint firstItem="OMu-G5-pXw" firstAttribute="width" secondItem="mzz-LG-Lx3" secondAttribute="width" multiplier="0.995181" id="FwV-C4-Gfs"/>
+                                    <constraint firstAttribute="bottom" secondItem="OMu-G5-pXw" secondAttribute="bottom" constant="13" id="MJ4-YJ-nIn"/>
+                                    <constraint firstItem="OMu-G5-pXw" firstAttribute="top" secondItem="mzz-LG-Lx3" secondAttribute="top" id="bc3-uN-vv8"/>
+                                    <constraint firstAttribute="trailing" secondItem="OMu-G5-pXw" secondAttribute="trailing" constant="1" id="d4S-eK-Suq"/>
+                                    <constraint firstItem="OMu-G5-pXw" firstAttribute="leading" secondItem="mzz-LG-Lx3" secondAttribute="leading" constant="1" id="fzg-eP-pED"/>
+                                    <constraint firstItem="OMu-G5-pXw" firstAttribute="height" secondItem="mzz-LG-Lx3" secondAttribute="height" multiplier="0.984394" id="qL8-m5-a9t"/>
                                 </constraints>
-                                <state key="normal" title="Click to read more &gt;"/>
-                                <connections>
-                                    <segue destination="xDW-Jy-eda" kind="show" id="Y5o-mY-FlN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-cY-Y83">
-                                <rect key="frame" x="19" y="415" width="369" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Girls Forced Into Underage Marriages">
-                                    <color key="titleColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="xDW-Jy-eda" kind="show" id="lAH-4V-Z40"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Child-Marrige-Pakistan" translatesAutoresizingMaskIntoConstraints="NO" id="0NO-tS-AVP">
-                                <rect key="frame" x="19" y="456" width="220" height="207"/>
-                            </imageView>
+                                <viewLayoutGuide key="contentLayoutGuide" id="dPq-Dh-JvY"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="i3C-ix-NYv"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0NO-tS-AVP" firstAttribute="trailing" secondItem="TjJ-vO-Vis" secondAttribute="trailing" id="8zF-Li-ggr"/>
-                            <constraint firstItem="w8y-42-ULQ" firstAttribute="leading" secondItem="Eyy-SD-cJl" secondAttribute="leading" id="Egt-gr-AfU"/>
-                            <constraint firstItem="U6a-RR-fpx" firstAttribute="leading" secondItem="Eyy-SD-cJl" secondAttribute="leading" id="FdS-v4-zNS"/>
-                            <constraint firstItem="GK7-H5-XoI" firstAttribute="centerX" secondItem="gr0-fE-rYQ" secondAttribute="centerX" id="HJp-KM-44M"/>
-                            <constraint firstItem="GK7-H5-XoI" firstAttribute="leading" secondItem="nEf-15-gTy" secondAttribute="leading" constant="112.5" id="KIw-xd-s53"/>
-                            <constraint firstItem="GK7-H5-XoI" firstAttribute="top" secondItem="nEf-15-gTy" secondAttribute="top" constant="29" id="MGj-0f-P1K"/>
-                            <constraint firstItem="7vO-cY-Y83" firstAttribute="top" secondItem="TjJ-vO-Vis" secondAttribute="bottom" constant="8" id="NrQ-SN-3nJ"/>
-                            <constraint firstItem="0NO-tS-AVP" firstAttribute="leading" secondItem="nEf-15-gTy" secondAttribute="leading" constant="21" id="Qg5-zd-gB7"/>
-                            <constraint firstItem="nEf-15-gTy" firstAttribute="trailing" secondItem="U6a-RR-fpx" secondAttribute="trailing" constant="14" id="Qo0-PH-3U9"/>
-                            <constraint firstItem="7vO-cY-Y83" firstAttribute="top" secondItem="w8y-42-ULQ" secondAttribute="bottom" constant="32" id="RcH-si-RoM"/>
-                            <constraint firstItem="U6a-RR-fpx" firstAttribute="leading" secondItem="DUT-Pa-tgM" secondAttribute="leading" id="TIu-jD-86h"/>
-                            <constraint firstItem="nEf-15-gTy" firstAttribute="trailing" secondItem="kfe-bY-esN" secondAttribute="trailing" constant="6" id="WAc-wZ-xii"/>
-                            <constraint firstItem="0NO-tS-AVP" firstAttribute="bottom" secondItem="kfe-bY-esN" secondAttribute="bottom" id="Xg6-uR-xVZ"/>
-                            <constraint firstItem="kfe-bY-esN" firstAttribute="leading" secondItem="nEf-15-gTy" secondAttribute="leading" constant="229" id="YeA-9h-MW3"/>
-                            <constraint firstItem="0NO-tS-AVP" firstAttribute="leading" secondItem="TjJ-vO-Vis" secondAttribute="leading" id="Z01-Ie-6oZ"/>
-                            <constraint firstItem="nEf-15-gTy" firstAttribute="bottom" secondItem="0NO-tS-AVP" secondAttribute="bottom" constant="199" id="Z7M-T5-yxy"/>
-                            <constraint firstItem="w8y-42-ULQ" firstAttribute="top" secondItem="Eyy-SD-cJl" secondAttribute="bottom" constant="2" id="bGw-q1-Rqa"/>
-                            <constraint firstItem="0NO-tS-AVP" firstAttribute="top" secondItem="7vO-cY-Y83" secondAttribute="bottom" constant="1" id="dYh-rl-njB"/>
-                            <constraint firstItem="U6a-RR-fpx" firstAttribute="leading" secondItem="0NO-tS-AVP" secondAttribute="trailing" constant="8" id="gcX-Lx-MjZ"/>
-                            <constraint firstItem="7vO-cY-Y83" firstAttribute="leading" secondItem="nEf-15-gTy" secondAttribute="leading" constant="33" id="ibJ-ar-OC1"/>
-                            <constraint firstItem="kfe-bY-esN" firstAttribute="top" secondItem="U6a-RR-fpx" secondAttribute="bottom" constant="-7" id="qr6-Tc-ahn"/>
-                            <constraint firstItem="U6a-RR-fpx" firstAttribute="top" secondItem="7vO-cY-Y83" secondAttribute="bottom" constant="1" id="wTE-kd-OP1"/>
-                            <constraint firstItem="nEf-15-gTy" firstAttribute="trailing" secondItem="GK7-H5-XoI" secondAttribute="trailing" constant="112.5" id="y50-jB-hes"/>
+                            <constraint firstItem="mzz-LG-Lx3" firstAttribute="top" secondItem="nEf-15-gTy" secondAttribute="top" id="6ZL-IQ-Fqo"/>
+                            <constraint firstItem="mzz-LG-Lx3" firstAttribute="width" secondItem="gr0-fE-rYQ" secondAttribute="width" multiplier="1.00242" id="CFt-5n-NC1"/>
+                            <constraint firstItem="nEf-15-gTy" firstAttribute="leading" secondItem="mzz-LG-Lx3" secondAttribute="leading" constant="1" id="OD7-jV-c4Y"/>
+                            <constraint firstItem="mzz-LG-Lx3" firstAttribute="height" secondItem="gr0-fE-rYQ" secondAttribute="height" multiplier="0.929688" id="Ohr-ag-nE9"/>
+                            <constraint firstItem="mzz-LG-Lx3" firstAttribute="bottom" secondItem="nEf-15-gTy" secondAttribute="bottom" constant="59" id="mWX-Xq-vnu"/>
+                            <constraint firstItem="nEf-15-gTy" firstAttribute="trailing" secondItem="mzz-LG-Lx3" secondAttribute="trailing" id="olV-D2-Ixx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nEf-15-gTy"/>
                     </view>
                     <navigationItem key="navigationItem" id="Svr-7c-VdR"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mb-NQ-Iqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886" y="-1112"/>
+            <point key="canvasLocation" x="885.50724637681162" y="-1112.2767857142856"/>
         </scene>
         <!--Rohingya Article View Controller-->
         <scene sceneID="KSU-Sn-Uv9">
@@ -574,7 +593,7 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oe7-zA-HHP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="BDw-kv-Kdv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1671.0144927536232" y="-1111.6071428571429"/>
+            <point key="canvasLocation" x="1679.7101449275362" y="-485.49107142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tnh-VC-EaI">
@@ -641,7 +660,7 @@ Farmers use thte slash and burn method to illegally acquire palm oil for large U
         <scene sceneID="AsI-Nh-mfR">
             <objects>
                 <viewController id="c04-0q-KGC" customClass="ViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zTm-tS-gvx">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zTm-tS-gvx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -661,7 +680,7 @@ Farmers use thte slash and burn method to illegally acquire palm oil for large U
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
                                 <rect key="frame" x="16" y="211" width="382" height="641"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -729,7 +748,7 @@ Your Title
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPv-uh-VD7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2411.594202898551" y="-1112.2767857142856"/>
+            <point key="canvasLocation" x="3978" y="-980"/>
         </scene>
         <!--Japan Pop Article View Controller-->
         <scene sceneID="Unf-bf-qMa">
@@ -872,7 +891,7 @@ How: There is a high life expectancy in Japan. Most senior citizens cannot contr
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="467" id="C2J-eD-RSZ"/>
                                                 </constraints>
-                                                <string key="text">Who: Pakistan men and girls under the age of 18. Original case involved 14 year old Christian girl who was forced to convert.
+                                                <mutableString key="text">Who: Pakistan men and girls under the age of 18. Original case involved 14 year old Christian girl who was forced to convert.
  
 What: A high court in Pakistan has ruled that men force underage girls to marry after their first period.
 
@@ -883,7 +902,7 @@ Why: The Child Marriage Restraint Act was in place, making the legal marriage ag
 
 How: Sharia law is the religious law of Islam derived from the teachings of the Quran, which acts as a divine code or guide for living.
 
-</string>
+</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -911,6 +930,12 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                                                     <segue destination="c04-0q-KGC" kind="show" id="xY4-uf-r1o"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Article adapted from Global Citizen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj4-eQ-tIo">
+                                                <rect key="frame" x="129" y="1078" width="268" height="21"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -920,11 +945,14 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                                             <constraint firstItem="bZs-85-h4l" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" constant="5" id="OW3-Vv-Ia4"/>
                                             <constraint firstItem="tOH-80-8V8" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="QWX-1r-iB5"/>
                                             <constraint firstItem="eft-bl-mXw" firstAttribute="leading" secondItem="OCs-sy-1vH" secondAttribute="leading" constant="47" id="RD8-02-CpF"/>
+                                            <constraint firstAttribute="bottom" secondItem="Bj4-eQ-tIo" secondAttribute="bottom" constant="349.5" id="Sqv-RM-qtQ"/>
                                             <constraint firstItem="n2O-Py-KF3" firstAttribute="top" secondItem="tOH-80-8V8" secondAttribute="bottom" constant="-4" id="TNR-hB-SWk"/>
                                             <constraint firstAttribute="bottom" secondItem="ddZ-VK-wXZ" secondAttribute="bottom" constant="569.5" id="VMo-my-Uy3"/>
                                             <constraint firstItem="feN-ma-jD5" firstAttribute="top" secondItem="n2O-Py-KF3" secondAttribute="bottom" constant="20" id="VRT-ET-jwV"/>
                                             <constraint firstItem="eft-bl-mXw" firstAttribute="top" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="11" id="amh-Tk-zkM"/>
                                             <constraint firstItem="ddZ-VK-wXZ" firstAttribute="leading" secondItem="bZs-85-h4l" secondAttribute="leading" id="gLb-Oe-9Ww"/>
+                                            <constraint firstItem="Bj4-eQ-tIo" firstAttribute="top" secondItem="fCz-mh-Iku" secondAttribute="bottom" constant="50" id="gRA-dK-Ghv"/>
+                                            <constraint firstItem="Bj4-eQ-tIo" firstAttribute="trailing" secondItem="eft-bl-mXw" secondAttribute="trailing" id="k5T-j8-3a7"/>
                                             <constraint firstAttribute="bottom" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="581.5" id="lZb-ux-Ioh"/>
                                             <constraint firstItem="eft-bl-mXw" firstAttribute="leading" secondItem="fCz-mh-Iku" secondAttribute="leading" id="qHV-sV-ZhU"/>
                                             <constraint firstAttribute="bottom" secondItem="fCz-mh-Iku" secondAttribute="bottom" constant="420.5" id="tJl-58-D6E"/>
@@ -964,18 +992,144 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="de9-7v-LvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1670" y="-1973"/>
+            <point key="canvasLocation" x="1607" y="-2395"/>
+        </scene>
+        <!--Libya View Controller-->
+        <scene sceneID="kLb-s1-mVU">
+            <objects>
+                <viewController storyboardIdentifier="libyaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vjo-bz-W5q" customClass="LibyaViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WUj-pG-ntH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7a2-OH-tTb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="1412"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RW-1s-jLY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1412"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="'It Was As if We Weren’t Human.'" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAk-mh-7eU">
+                                                <rect key="frame" x="36" y="88" width="349" height="18"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="349" id="UQv-JL-IT9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Libyan slave trade" translatesAutoresizingMaskIntoConstraints="NO" id="f9l-Ev-XfR">
+                                                <rect key="frame" x="29" y="114" width="352" height="240"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="UI4-5w-pfz">
+                                                <rect key="frame" x="26" y="310" width="359" height="467"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="467" id="OIC-T8-m1v"/>
+                                                </constraints>
+                                                <mutableString key="text">Who: African American migrants
+
+What: Libya has been exposed for having a slave trade and capturing inncoent people and selling them into slavery.
+
+Where: Libya
+
+Why: Since the Arab Spring in 2011, Libya has had a very unstable governement and it's economy has comletely tanked. Most people are left jobless and desperate.
+
+How: Many, in a desperate effort, will see ads online for "job openings" in Libya and flee in order to save their family. This is only met by immediate capturing and selling into slavery. More than 3,000 people have died in the last 4 years, and dozens continue to die each day.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pi9-2A-cho">
+                                                <rect key="frame" x="32" y="802" width="244" height="34"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-r7-jmR">
+                                                <rect key="frame" x="46" y="835" width="349" height="125"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="125" id="Mbp-Gt-LKI"/>
+                                                </constraints>
+                                                <string key="text">Many migrants have been able to escape slavery through the IOM (International Organization for Migrants). They provide safe passage for migrants trying to escape slavery.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6O-VZ-xo3">
+                                                <rect key="frame" x="46" y="954" width="84" height="30"/>
+                                                <state key="normal" title="Donate here"/>
+                                                <connections>
+                                                    <action selector="donateButtonTapped:" destination="vjo-bz-W5q" eventType="touchUpInside" id="fGr-fi-h7o"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Inside the Modern Slave Trade Trapping African Migrants" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZs-a5-Pw6">
+                                                <rect key="frame" x="22" y="9" width="367" height="71"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pi9-2A-cho" firstAttribute="top" secondItem="UI4-5w-pfz" secondAttribute="bottom" constant="25" id="0zF-0P-AYi"/>
+                                            <constraint firstAttribute="bottom" secondItem="G6O-VZ-xo3" secondAttribute="bottom" constant="428" id="2gZ-SV-1cd"/>
+                                            <constraint firstItem="UI4-5w-pfz" firstAttribute="top" secondItem="1RW-1s-jLY" secondAttribute="top" constant="310" id="5bu-T4-yov"/>
+                                            <constraint firstItem="pi9-2A-cho" firstAttribute="leading" secondItem="1RW-1s-jLY" secondAttribute="leading" constant="32" id="HRp-LQ-DyW"/>
+                                            <constraint firstItem="sZs-a5-Pw6" firstAttribute="centerX" secondItem="1RW-1s-jLY" secondAttribute="centerX" constant="-1.5" id="Jlo-ah-twr"/>
+                                            <constraint firstItem="JAk-mh-7eU" firstAttribute="centerX" secondItem="1RW-1s-jLY" secondAttribute="centerX" constant="3.5" id="LKk-DQ-Hjv"/>
+                                            <constraint firstItem="UI4-5w-pfz" firstAttribute="centerX" secondItem="f9l-Ev-XfR" secondAttribute="centerX" id="Um4-xo-qEc"/>
+                                            <constraint firstItem="sZs-a5-Pw6" firstAttribute="top" secondItem="1RW-1s-jLY" secondAttribute="top" constant="9" id="a3T-r6-Bbf"/>
+                                            <constraint firstItem="Khd-r7-jmR" firstAttribute="leading" secondItem="1RW-1s-jLY" secondAttribute="leading" constant="46" id="a8f-3G-RNR"/>
+                                            <constraint firstItem="UI4-5w-pfz" firstAttribute="leading" secondItem="1RW-1s-jLY" secondAttribute="leading" constant="26" id="e0u-X7-f9K"/>
+                                            <constraint firstItem="Khd-r7-jmR" firstAttribute="top" secondItem="UI4-5w-pfz" secondAttribute="bottom" constant="58" id="eRg-Ey-M5D"/>
+                                            <constraint firstItem="UI4-5w-pfz" firstAttribute="centerX" secondItem="sZs-a5-Pw6" secondAttribute="centerX" id="icc-RZ-UXX"/>
+                                            <constraint firstItem="Khd-r7-jmR" firstAttribute="leading" secondItem="G6O-VZ-xo3" secondAttribute="leading" id="oVy-fk-dpv"/>
+                                            <constraint firstItem="JAk-mh-7eU" firstAttribute="top" secondItem="sZs-a5-Pw6" secondAttribute="bottom" constant="8" id="yLs-OK-Ccb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1RW-1s-jLY" secondAttribute="trailing" id="0eF-oC-Arw"/>
+                                    <constraint firstAttribute="bottom" secondItem="1RW-1s-jLY" secondAttribute="bottom" id="1zE-A3-ptP"/>
+                                    <constraint firstItem="1RW-1s-jLY" firstAttribute="width" secondItem="7a2-OH-tTb" secondAttribute="width" id="3lx-gU-rOM"/>
+                                    <constraint firstItem="1RW-1s-jLY" firstAttribute="height" secondItem="7a2-OH-tTb" secondAttribute="height" priority="250" id="9f0-aK-aHj"/>
+                                    <constraint firstItem="1RW-1s-jLY" firstAttribute="leading" secondItem="7a2-OH-tTb" secondAttribute="leading" id="SL5-yK-lL6"/>
+                                    <constraint firstItem="1RW-1s-jLY" firstAttribute="top" secondItem="7a2-OH-tTb" secondAttribute="top" id="iyt-ER-ZfH"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="N09-kT-O6D"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="PJl-KX-GB8"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7a2-OH-tTb" secondAttribute="bottom" id="1GX-tv-SYi"/>
+                            <constraint firstItem="7a2-OH-tTb" firstAttribute="leading" secondItem="WUj-pG-ntH" secondAttribute="leading" id="CXB-uh-nqq"/>
+                            <constraint firstItem="7a2-OH-tTb" firstAttribute="centerX" secondItem="lTa-na-AIm" secondAttribute="centerX" id="DOX-Do-h35"/>
+                            <constraint firstItem="7a2-OH-tTb" firstAttribute="leading" secondItem="lTa-na-AIm" secondAttribute="leading" id="F5Q-zJ-UZf"/>
+                            <constraint firstItem="7a2-OH-tTb" firstAttribute="bottom" secondItem="lTa-na-AIm" secondAttribute="bottom" constant="34" id="QGp-jT-6lC"/>
+                            <constraint firstItem="7a2-OH-tTb" firstAttribute="top" secondItem="lTa-na-AIm" secondAttribute="top" id="hZY-Nd-DMO"/>
+                            <constraint firstItem="lTa-na-AIm" firstAttribute="trailing" secondItem="7a2-OH-tTb" secondAttribute="trailing" id="pnq-mC-C3V"/>
+                            <constraint firstAttribute="trailing" secondItem="7a2-OH-tTb" secondAttribute="trailing" id="qTn-Gb-btb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lTa-na-AIm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kdd-EV-Jc9"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KmU-wz-vM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1605.7971014492755" y="-1345.3125"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lAH-4V-Z40"/>
+        <segue reference="fkB-qL-rAk"/>
         <segue reference="Xer-EO-Gc0"/>
-        <segue reference="Qtr-tC-rgH"/>
-        <segue reference="iEN-ef-c5F"/>
+        <segue reference="xY4-uf-r1o"/>
+        <segue reference="7gX-VT-eYu"/>
         <segue reference="wzW-iK-Nbu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Child-Marrige-Pakistan" width="599" height="598"/>
+        <image name="Libyan slave trade" width="299" height="168"/>
         <image name="idonesia-forest-preview" width="1200" height="802"/>
         <image name="indonesia-deforestation" width="1000" height="667"/>
         <image name="indonesia-fire" width="884" height="884"/>
