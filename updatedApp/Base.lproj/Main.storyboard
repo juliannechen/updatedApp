@@ -163,6 +163,33 @@ Population is projected to shrink by almost a third by 2065
                                     <segue destination="SV3-7e-gTd" kind="show" id="27q-se-0V1"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Child-Marrige-Pakistan" translatesAutoresizingMaskIntoConstraints="NO" id="kPV-uk-fQg">
+                                <rect key="frame" x="20" y="497" width="220" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cj5-zj-TKY">
+                                <rect key="frame" x="248" y="482" width="151" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">📍Pakistan
+
+Court validates forced marriage between 14 year old girl and abuductor 
+
+Violates the Child Marriage Restraint Act</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmE-at-mge">
+                                <rect key="frame" x="222" y="674" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click to read more &gt;"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdk-G1-9eP">
+                                <rect key="frame" x="32" y="441" width="338" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="14 yr Old Girl Forced Into Marriage"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -219,7 +246,7 @@ Population is projected to shrink by almost a third by 2065
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="412" id="SMu-JJ-aXO"/>
                                                 </constraints>
-                                                <mutableString key="text">Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+                                                <string key="text">Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
  
 What: Using illegal clearence methods to harvest palm oil has caused wildfires to break out, lowering air quality, polluting the Earth, and harming biodiversity. 
 When: 1990-present
@@ -229,7 +256,7 @@ Where: Indonesia, 40% in the region Papua which is one of the most biodiverse ar
 Why: Palm oil is used in many household products like shampoo, toothpaste, cosmetics, and food.
 
 How: Illegal burn and slash methods increase risk of uncontrolled fires.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -741,12 +768,12 @@ How: There is a high life expectancy in Japan. Most senior citizens cannot contr
                                                     <constraint firstAttribute="height" constant="246" id="ahd-Bn-kLV"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-85-h4l">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-85-h4l">
                                                 <rect key="frame" x="32" y="400" width="360" height="467"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="946" id="C2J-eD-RSZ"/>
+                                                    <constraint firstAttribute="height" constant="467" id="C2J-eD-RSZ"/>
                                                 </constraints>
-                                                <mutableString key="text">Who: Pakistan men and girls under the age of 18. Original case involved 14 year old Christian girl who was forced to convert.
+                                                <string key="text">Who: Pakistan men and girls under the age of 18. Original case involved 14 year old Christian girl who was forced to convert.
  
 What: A high court in Pakistan has ruled that men force underage girls to marry after their first period.
 
@@ -757,30 +784,53 @@ Why: The Child Marriage Restraint Act was in place, making the legal marriage ag
 
 How: Sharia law is the religious law of Islam derived from the teachings of the Quran, which acts as a divine code or guide for living.
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Underage Marriages In Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMV-Rb-qWI">
-                                                <rect key="frame" x="22" y="835" width="380.5" height="33.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-VK-wXZ">
+                                                <rect key="frame" x="32" y="845" width="244" height="34"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eft-bl-mXw">
+                                                <rect key="frame" x="47" y="878" width="350" height="125"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="125" id="BaA-HK-KBf"/>
+                                                </constraints>
+                                                <string key="text">The relevant case involving the high court ruling of the 14 year old is being taken to the Pakistan Supreme Court. Email them at mail@supremecourt.gov.pk</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCz-mh-Iku">
+                                                <rect key="frame" x="47" y="998" width="132" height="30"/>
+                                                <state key="normal" title="Get Email Template"/>
+                                                <connections>
+                                                    <segue destination="c04-0q-KGC" kind="show" id="xY4-uf-r1o"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="tOH-80-8V8" firstAttribute="top" secondItem="OCs-sy-1vH" secondAttribute="top" constant="35" id="4Tz-eV-2R0"/>
                                             <constraint firstItem="n2O-Py-KF3" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="EEt-Bm-nOJ"/>
                                             <constraint firstItem="feN-ma-jD5" firstAttribute="top" secondItem="tOH-80-8V8" secondAttribute="bottom" constant="57" id="GVX-yg-QeT"/>
-                                            <constraint firstItem="bZs-85-h4l" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" constant="0.5" id="OW3-Vv-Ia4"/>
+                                            <constraint firstItem="bZs-85-h4l" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" constant="5" id="OW3-Vv-Ia4"/>
                                             <constraint firstItem="tOH-80-8V8" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="QWX-1r-iB5"/>
+                                            <constraint firstItem="eft-bl-mXw" firstAttribute="leading" secondItem="OCs-sy-1vH" secondAttribute="leading" constant="47" id="RD8-02-CpF"/>
                                             <constraint firstItem="n2O-Py-KF3" firstAttribute="top" secondItem="tOH-80-8V8" secondAttribute="bottom" constant="-4" id="TNR-hB-SWk"/>
+                                            <constraint firstAttribute="bottom" secondItem="ddZ-VK-wXZ" secondAttribute="bottom" constant="569.5" id="VMo-my-Uy3"/>
                                             <constraint firstItem="feN-ma-jD5" firstAttribute="top" secondItem="n2O-Py-KF3" secondAttribute="bottom" constant="20" id="VRT-ET-jwV"/>
-                                            <constraint firstAttribute="bottom" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="123" id="lZb-ux-Ioh"/>
-                                            <constraint firstItem="bZs-85-h4l" firstAttribute="top" secondItem="feN-ma-jD5" secondAttribute="bottom" constant="8" id="tvf-jl-S7x"/>
+                                            <constraint firstItem="eft-bl-mXw" firstAttribute="top" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="11" id="amh-Tk-zkM"/>
+                                            <constraint firstItem="ddZ-VK-wXZ" firstAttribute="leading" secondItem="bZs-85-h4l" secondAttribute="leading" id="gLb-Oe-9Ww"/>
+                                            <constraint firstAttribute="bottom" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="581.5" id="lZb-ux-Ioh"/>
+                                            <constraint firstItem="eft-bl-mXw" firstAttribute="leading" secondItem="fCz-mh-Iku" secondAttribute="leading" id="qHV-sV-ZhU"/>
+                                            <constraint firstAttribute="bottom" secondItem="fCz-mh-Iku" secondAttribute="bottom" constant="420.5" id="tJl-58-D6E"/>
+                                            <constraint firstItem="bZs-85-h4l" firstAttribute="top" secondItem="feN-ma-jD5" secondAttribute="bottom" constant="28.5" id="tvf-jl-S7x"/>
+                                            <constraint firstAttribute="trailing" secondItem="eft-bl-mXw" secondAttribute="trailing" constant="17" id="u3g-ZX-7zS"/>
                                             <constraint firstItem="feN-ma-jD5" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="xIJ-PR-Vtm"/>
                                         </constraints>
                                     </view>
@@ -815,15 +865,17 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="de9-7v-LvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-71.014492753623188" y="-777.45535714285711"/>
+            <point key="canvasLocation" x="1670" y="-1973"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Xer-EO-Gc0"/>
+        <segue reference="xY4-uf-r1o"/>
         <segue reference="7gX-VT-eYu"/>
         <segue reference="wzW-iK-Nbu"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Child-Marrige-Pakistan" width="599" height="598"/>
         <image name="idonesia-forest-preview" width="1200" height="802"/>
         <image name="indonesia-deforestation" width="1000" height="667"/>
         <image name="indonesia-fire" width="884" height="884"/>
