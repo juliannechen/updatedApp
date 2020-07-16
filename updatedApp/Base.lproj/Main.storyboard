@@ -741,24 +741,31 @@ How: There is a high life expectancy in Japan. Most senior citizens cannot contr
                                                     <constraint firstAttribute="height" constant="246" id="ahd-Bn-kLV"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-85-h4l">
-                                                <rect key="frame" x="27.5" y="379.5" width="360" height="946"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-85-h4l">
+                                                <rect key="frame" x="32" y="400" width="360" height="467"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="946" id="C2J-eD-RSZ"/>
                                                 </constraints>
-                                                <mutableString key="text">Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+                                                <mutableString key="text">Who: Pakistan men and girls under the age of 18. Original case involved 14 year old Christian girl who was forced to convert.
  
-What: Using illegal clearence methods to harvest palm oil has caused wildfires to break out, lowering air quality, polluting the Earth, and harming biodiversity.
+What: A high court in Pakistan has ruled that men force underage girls to marry after their first period.
 
-When: 
-Where: Indonesia, 40% in the region Papua which is one of the most biodiverse areas on Earth
+When: Feb 3. 2020 
+Where: Pakistan
 
-Why: Palm oil is used in many household products like shampoo, toothpaste, cosmetics, and food.
+Why: The Child Marriage Restraint Act was in place, making the legal marriage age 18. However, a high court in Pakistan ruled that under Sharia law underage girls can be married under certain circumstances.
 
-How: Illegal burn and slash methods increase risk of uncontrolled fires.Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+How: Sharia law is the religious law of Islam derived from the teachings of the Quran, which acts as a divine code or guide for living.
 
 </mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Underage Marriages In Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMV-Rb-qWI">
+                                                <rect key="frame" x="22" y="835" width="380.5" height="33.5"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
