@@ -47,10 +47,10 @@
                                     <segue destination="wgb-hC-aq6" kind="show" id="esk-dB-hBD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Editor's Pick" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnz-cS-KGK">
-                                <rect key="frame" x="294" y="170" width="94" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="editor's pick ⤵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnz-cS-KGK">
+                                <rect key="frame" x="257" y="190" width="124" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -62,22 +62,60 @@
                                     <segue destination="I5n-VX-7ai" kind="show" id="jbu-uC-ltl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
-                                <rect key="frame" x="139" y="106" width="122" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="updated" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoq-6N-6lq">
+                                <rect key="frame" x="146" y="106" width="122" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan-pop-decl" translatesAutoresizingMaskIntoConstraints="NO" id="ek1-2P-4WW">
+                                <rect key="frame" x="-48" y="471" width="309" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aP-F8-6AG">
+                                <rect key="frame" x="222" y="221" width="172" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="rohingya-crisis"/>
+                                <connections>
+                                    <segue destination="XmB-bI-bJe" kind="show" id="7gX-VT-eYu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-SL-6W2">
+                                <rect key="frame" x="20" y="221" width="186" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="indonesia-fire"/>
+                                <connections>
+                                    <segue destination="Sbt-ap-e2L" kind="show" id="wzW-iK-Nbu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06p-T2-Ovo">
+                                <rect key="frame" x="272" y="538" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="xDW-Jy-eda" kind="show" id="fkB-qL-rAk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="146" id="DdA-aG-juD"/>
+                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="QiW-7s-F8r"/>
+                            <constraint firstItem="Xoq-6N-6lq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z0G-35-y9R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xoq-6N-6lq" secondAttribute="trailing" constant="146" id="zMC-RK-Hjn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="RC7-A7-j89"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="b31-Le-3Y1">
+                    <connections>
+                        <action selector="rohinyaImageTapped:" destination="BYZ-38-t0r" id="MO9-Rf-Jzt"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="139" y="116"/>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oix-PQ-zGs">
@@ -87,16 +125,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Economic Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrW-HR-c3v">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Economic Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrW-HR-c3v">
                                 <rect key="frame" x="84.5" y="129" width="245" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan-pop-decl" translatesAutoresizingMaskIntoConstraints="NO" id="nrM-us-4QA">
+                                <rect key="frame" x="15" y="226" width="220" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SR1-nN-R2r">
+                                <rect key="frame" x="243" y="226" width="151" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">📍Japan
+
+Population is projected to shrink by almost a third by 2065
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mx-9C-bDH">
+                                <rect key="frame" x="15" y="185" width="233" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Japan Population Crisis"/>
+                                <connections>
+                                    <segue destination="SV3-7e-gTd" kind="show" id="Xer-EO-Gc0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yx-Fo-1pL">
+                                <rect key="frame" x="229" y="348" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click to read more &gt;"/>
+                                <connections>
+                                    <segue destination="SV3-7e-gTd" kind="show" id="27q-se-0V1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="mrW-HR-c3v" firstAttribute="leading" secondItem="aXM-fc-eSW" secondAttribute="leading" constant="84.5" id="WBK-3k-Gjd"/>
                             <constraint firstItem="mrW-HR-c3v" firstAttribute="centerX" secondItem="Dse-oH-bfL" secondAttribute="centerX" id="XGJ-1R-uwX"/>
+                            <constraint firstItem="mrW-HR-c3v" firstAttribute="top" secondItem="aXM-fc-eSW" secondAttribute="top" constant="41" id="d0W-wx-uBc"/>
+                            <constraint firstItem="aXM-fc-eSW" firstAttribute="trailing" secondItem="mrW-HR-c3v" secondAttribute="trailing" constant="84.5" id="yh8-6x-lrF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aXM-fc-eSW"/>
                     </view>
@@ -104,7 +177,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKu-c1-vLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="116"/>
+            <point key="canvasLocation" x="921.73913043478262" y="115.84821428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U68-59-dg2">
+            <objects>
+                <viewController id="Sbt-ap-e2L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tqs-4g-JvV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7TX-jL-TuK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="912"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P02-JB-f5I">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In under 3 years, companies have destroyed an area of the rainforest 2x the size of Singapore" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ou3-on-Gn8">
+                                                <rect key="frame" x="32.5" y="72" width="349" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="349" id="cTT-wu-GHH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deforestation For Palm Oil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBu-Yu-Grj">
+                                                <rect key="frame" x="19" y="35" width="376" height="41"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-deforestation" translatesAutoresizingMaskIntoConstraints="NO" id="jfo-49-QAu">
+                                                <rect key="frame" x="-293" y="133" width="1000" height="246"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="246" id="Mfo-Rh-cJI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="xzi-UK-9FX">
+                                                <rect key="frame" x="27.5" y="387" width="360" height="412"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="412" id="SMu-JJ-aXO"/>
+                                                </constraints>
+                                                <mutableString key="text">Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+ 
+What: Using illegal clearence methods to harvest palm oil has caused wildfires to break out, lowering air quality, polluting the Earth, and harming biodiversity. 
+When: 1990-present
+
+Where: Indonesia, 40% in the region Papua which is one of the most biodiverse areas on Earth
+
+Why: Palm oil is used in many household products like shampoo, toothpaste, cosmetics, and food.
+
+How: Illegal burn and slash methods increase risk of uncontrolled fires.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ou3-on-Gn8" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="00u-hX-hWR"/>
+                                            <constraint firstItem="sBu-Yu-Grj" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="Jel-4l-gAB"/>
+                                            <constraint firstItem="jfo-49-QAu" firstAttribute="top" secondItem="sBu-Yu-Grj" secondAttribute="bottom" constant="57" id="Lh7-Ja-DxP"/>
+                                            <constraint firstItem="sBu-Yu-Grj" firstAttribute="top" secondItem="P02-JB-f5I" secondAttribute="top" constant="35" id="U6U-yZ-wqD"/>
+                                            <constraint firstAttribute="bottom" secondItem="xzi-UK-9FX" secondAttribute="bottom" constant="117" id="Xre-4s-2Rp"/>
+                                            <constraint firstItem="jfo-49-QAu" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="cUz-GM-7tN"/>
+                                            <constraint firstItem="xzi-UK-9FX" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" constant="0.5" id="jWd-xJ-9dU"/>
+                                            <constraint firstItem="jfo-49-QAu" firstAttribute="top" secondItem="ou3-on-Gn8" secondAttribute="bottom" constant="20" id="q6s-AM-00O"/>
+                                            <constraint firstItem="ou3-on-Gn8" firstAttribute="top" secondItem="sBu-Yu-Grj" secondAttribute="bottom" constant="-4" id="s0z-DN-dr4"/>
+                                            <constraint firstItem="xzi-UK-9FX" firstAttribute="top" secondItem="jfo-49-QAu" secondAttribute="bottom" constant="8" id="xed-U5-6uo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="P02-JB-f5I" secondAttribute="trailing" id="6ab-4b-tOp"/>
+                                    <constraint firstItem="P02-JB-f5I" firstAttribute="width" secondItem="7TX-jL-TuK" secondAttribute="width" id="Lxi-UP-PbB"/>
+                                    <constraint firstItem="P02-JB-f5I" firstAttribute="height" secondItem="7TX-jL-TuK" secondAttribute="height" priority="250" id="R0i-Hq-55V"/>
+                                    <constraint firstAttribute="bottom" secondItem="P02-JB-f5I" secondAttribute="bottom" id="Wdd-H9-iMW"/>
+                                    <constraint firstItem="P02-JB-f5I" firstAttribute="leading" secondItem="7TX-jL-TuK" secondAttribute="leading" id="atK-XF-W2c"/>
+                                    <constraint firstItem="P02-JB-f5I" firstAttribute="top" secondItem="7TX-jL-TuK" secondAttribute="top" id="pxG-pi-5cx"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="zNX-ll-ecL"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Tsu-lr-ofm"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7TX-jL-TuK" firstAttribute="top" secondItem="zge-Ek-XKE" secondAttribute="top" id="7jn-gD-Bx5"/>
+                            <constraint firstItem="zge-Ek-XKE" firstAttribute="trailing" secondItem="7TX-jL-TuK" secondAttribute="trailing" id="9L9-Tb-fgJ"/>
+                            <constraint firstItem="7TX-jL-TuK" firstAttribute="leading" secondItem="zge-Ek-XKE" secondAttribute="leading" id="CSL-MF-5lk"/>
+                            <constraint firstAttribute="bottom" secondItem="7TX-jL-TuK" secondAttribute="bottom" id="Fc8-p5-2B4"/>
+                            <constraint firstAttribute="trailing" secondItem="7TX-jL-TuK" secondAttribute="trailing" id="NZM-rc-pSY"/>
+                            <constraint firstItem="7TX-jL-TuK" firstAttribute="bottom" secondItem="zge-Ek-XKE" secondAttribute="bottom" constant="34" id="eeS-hy-p1V"/>
+                            <constraint firstItem="7TX-jL-TuK" firstAttribute="centerX" secondItem="zge-Ek-XKE" secondAttribute="centerX" id="heI-8H-sIk"/>
+                            <constraint firstItem="7TX-jL-TuK" firstAttribute="leading" secondItem="Tqs-4g-JvV" secondAttribute="leading" id="jg6-fx-Ic9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zge-Ek-XKE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nrl-2T-oJ8"/>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1j-Er-QUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723" y="903"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GGg-df-6Gg">
@@ -119,7 +295,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
-                                <rect key="frame" x="28" y="185" width="154" height="40"/>
+                                <rect key="frame" x="29" y="186" width="154" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Rohingya Crisis"/>
@@ -157,7 +333,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK7-H5-XoI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK7-H5-XoI">
                                 <rect key="frame" x="112.5" y="117" width="189" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
@@ -167,6 +343,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="GK7-H5-XoI" firstAttribute="centerX" secondItem="gr0-fE-rYQ" secondAttribute="centerX" id="HJp-KM-44M"/>
+                            <constraint firstItem="GK7-H5-XoI" firstAttribute="leading" secondItem="nEf-15-gTy" secondAttribute="leading" constant="112.5" id="KIw-xd-s53"/>
+                            <constraint firstItem="GK7-H5-XoI" firstAttribute="top" secondItem="nEf-15-gTy" secondAttribute="top" constant="29" id="MGj-0f-P1K"/>
+                            <constraint firstItem="nEf-15-gTy" firstAttribute="trailing" secondItem="GK7-H5-XoI" secondAttribute="trailing" constant="112.5" id="y50-jB-hes"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nEf-15-gTy"/>
                     </view>
@@ -174,21 +353,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mb-NQ-Iqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923" y="-605"/>
+            <point key="canvasLocation" x="886" y="-1112"/>
         </scene>
-        <!--View Controller-->
+        <!--Rohingya Article View Controller-->
         <scene sceneID="KSU-Sn-Uv9">
             <objects>
-                <viewController id="XmB-bI-bJe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JRj-dj-seS">
+                <viewController storyboardIdentifier="rohingyaArticleView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XmB-bI-bJe" customClass="RohingyaArticleViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="rohingyaArticle" id="JRj-dj-seS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wHw-cz-UNS">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wHw-cz-UNS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="817"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mv4-5H-hfR">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mv4-5H-hfR">
+                                        <rect key="frame" x="0.0" y="34" width="414" height="774"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Rohingya Crisis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Me-Uh-cS2">
                                                 <rect key="frame" x="86" y="20" width="226" height="41"/>
@@ -197,31 +376,22 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB5-Qx-tYF">
-                                                <rect key="frame" x="26" y="69" width="372" height="585"/>
-                                                <mutableString key="text">Who: Rohingya Muslims, who are an ethnic minority group in Myanmar. 712,700 people have been displaced.
+                                                <rect key="frame" x="24" y="110" width="372" height="491"/>
+                                                <string key="text">Who: Rohingya Muslims, who are an ethnic minority group in Myanmar. 712,700 people have been displaced.
  
 What: Mmassacre, gang rape, village burning and looting. A case of ethnic cleansing and a hallmark of genocide.
 When: The first phase was from October 2016 to January 2017. The second was from August 2017-present. 
 Where: Myanmar, a country in Southeast Asia
 
-Why: The Rohingya are a highly persecuted Muslim group in a century old conflict. They are not considered citizens under the Myanmar government. The main opposers are nationalist Buddist groups that demand the expulsion of Muslims from Myanmar, which has resulted in violence and retaliation. The Myanmar leader, Win Mynit, denies claims of genocide by the military.
+Why: The Rohingya are a highly persecuted Muslim group in a century old conflict. The main opposers are nationalist Buddist groups that demand the expulsion of Muslims from Myanmar, which has resulted in violence and retaliation. The Myanmar leader, Win Mynit, denies claims of genocide by the military.
 
-How: Myanmar's armed forces and police use violence to launch the major crackdown on the Rohingya people. Military operations have displaced hundreds of thousands</mutableString>
+How: Myanmar's armed forces and police use violence to launch the major crackdown on the Rohingya people. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="link text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="73g-Qv-I5Y">
-                                                <rect key="frame" x="45" y="662" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                            </textView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoV-8i-qpS">
-                                                <rect key="frame" x="88" y="715" width="249" height="75"/>
+                                                <rect key="frame" x="86" y="699" width="249" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Email Corresponding Representative"/>
                                                 <connections>
@@ -229,13 +399,23 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
                                                     <segue destination="c04-0q-KGC" kind="show" id="Qtr-tC-rgH"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="largest human exodus in Asia since the Vietnam War" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtC-tt-uay">
+                                                <rect key="frame" x="31" y="69" width="352" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="3Me-Uh-cS2" firstAttribute="centerX" secondItem="mv4-5H-hfR" secondAttribute="centerX" constant="-8" id="GnP-aX-EYa"/>
-                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="leading" secondItem="mv4-5H-hfR" secondAttribute="leading" constant="26" id="gS8-K7-5YB"/>
-                                            <constraint firstAttribute="trailing" secondItem="hB5-Qx-tYF" secondAttribute="trailing" constant="16" id="meb-0f-fNC"/>
-                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="top" secondItem="3Me-Uh-cS2" secondAttribute="bottom" constant="8" id="ttv-FI-T4F"/>
+                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="leading" secondItem="mv4-5H-hfR" secondAttribute="leading" constant="24" id="gS8-K7-5YB"/>
+                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="top" secondItem="DtC-tt-uay" secondAttribute="bottom" constant="23" id="h3Q-3U-2n5"/>
+                                            <constraint firstItem="DtC-tt-uay" firstAttribute="top" secondItem="3Me-Uh-cS2" secondAttribute="bottom" constant="8" id="kTQ-MP-ssi"/>
+                                            <constraint firstAttribute="trailing" secondItem="hB5-Qx-tYF" secondAttribute="trailing" constant="18" id="meb-0f-fNC"/>
+                                            <constraint firstItem="hB5-Qx-tYF" firstAttribute="top" secondItem="3Me-Uh-cS2" secondAttribute="bottom" constant="49" id="ttv-FI-T4F"/>
+                                            <constraint firstItem="DtC-tt-uay" firstAttribute="leading" secondItem="mv4-5H-hfR" secondAttribute="leading" constant="31" id="u8p-ey-QzQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="DtC-tt-uay" secondAttribute="trailing" constant="31" id="ua5-ST-KE5"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -247,6 +427,11 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
                                     <constraint firstAttribute="bottom" secondItem="mv4-5H-hfR" secondAttribute="bottom" id="Z6C-aj-fpe"/>
                                     <constraint firstItem="mv4-5H-hfR" firstAttribute="leading" secondItem="wHw-cz-UNS" secondAttribute="leading" id="qhH-hV-e0h"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="2000" height="1000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -273,28 +458,64 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Environmental Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK2-z9-TCT">
-                                <rect key="frame" x="160" y="148" width="162" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Environmental Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6W-41-QhJ">
+                                <rect key="frame" x="53" y="138" width="308" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="idonesia-forest-preview" translatesAutoresizingMaskIntoConstraints="NO" id="fff-dD-PDG">
+                                <rect key="frame" x="14" y="216" width="234" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HL-br-HlS">
+                                <rect key="frame" x="256" y="247" width="145" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">📍Indonesia
+
+Farmers use thte slash and burn method to illegally acquire palm oil for large US companies
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBf-5f-POl">
+                                <rect key="frame" x="14" y="205" width="329" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Deforestation and Toxic Pollution "/>
+                                <connections>
+                                    <segue destination="Sbt-ap-e2L" kind="show" id="lmQ-27-NOH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhA-AG-zXE">
+                                <rect key="frame" x="235" y="381" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click to read more &gt;"/>
+                                <connections>
+                                    <segue destination="Sbt-ap-e2L" kind="show" id="5b4-nd-xlO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="c6W-41-QhJ" firstAttribute="top" secondItem="iAP-7I-1xT" secondAttribute="top" constant="50" id="Abh-ou-LKS"/>
+                            <constraint firstItem="iAP-7I-1xT" firstAttribute="trailing" secondItem="c6W-41-QhJ" secondAttribute="trailing" constant="53" id="WZo-F1-hob"/>
+                            <constraint firstItem="c6W-41-QhJ" firstAttribute="leading" secondItem="iAP-7I-1xT" secondAttribute="leading" constant="53" id="pfK-tW-KCR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iAP-7I-1xT"/>
                     </view>
                     <navigationItem key="navigationItem" id="F47-vR-t2P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Azq-NM-cfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="851"/>
+            <point key="canvasLocation" x="886" y="1539"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AsI-Nh-mfR">
             <objects>
                 <viewController id="c04-0q-KGC" customClass="ViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zTm-tS-gvx">
+                    <view key="view" contentMode="scaleToFill" id="zTm-tS-gvx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -314,13 +535,13 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
-                                <rect key="frame" x="16" y="211" width="382" height="618"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="djj-RI-63X">
+                                <rect key="frame" x="16" y="211" width="382" height="641"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="enj-ff-8B3"/>
                                 </constraints>
-                                <mutableString key="text">Dear Representative/Senator ______________: 
+                                <string key="text">Dear Representative/Senator ______________: 
 
 As a researcher and a constituent or student, I am deeply concerned about the [humanitarian crisis in ___ country] and the consequences residents and humans will face should this issue not be fixed. If lawmakers can’t put politics aside, this crisis will compromise the lives of thousands of innocent humans including children. We cannot let this occur. Now is the time to become more globally active as a nation and aid our neighboring countries. 
 
@@ -335,7 +556,7 @@ Sincerely,
 
 Your Name 
 Your Title 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -384,11 +605,225 @@ Your Title
             </objects>
             <point key="canvasLocation" x="2411.594202898551" y="-1112.2767857142856"/>
         </scene>
+        <!--Japan Pop Article View Controller-->
+        <scene sceneID="Unf-bf-qMa">
+            <objects>
+                <viewController storyboardIdentifier="japanPopArticleView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SV3-7e-gTd" customClass="JapanPopArticleViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="rohingyaArticle" id="I6H-bN-7gL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMW-zi-vF5">
+                                <rect key="frame" x="0.0" y="88" width="414" height="817"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Fg-ZW-NcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Japan Population Crisis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-7D-cNZ">
+                                                <rect key="frame" x="28.5" y="20" width="341" height="41"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Economic implications of a high life expectancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he6-hf-ilN">
+                                                <rect key="frame" x="44" y="69" width="352" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hr-c6-aGb">
+                                                <rect key="frame" x="86" y="699" width="249" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Email Corresponding Representative"/>
+                                                <connections>
+                                                    <action selector="sendEmailButtonTapped:" destination="3Pi-vz-k5L" eventType="touchUpInside" id="hd3-QA-nSW"/>
+                                                    <action selector="sendEmailButtonTapped:" destination="BDw-kv-Kdv" eventType="touchUpInside" id="vov-KO-MZV"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="japan-article-chart" translatesAutoresizingMaskIntoConstraints="NO" id="dm1-5X-UGZ">
+                                                <rect key="frame" x="-93" y="95" width="600" height="296"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP5-lU-LBX">
+                                                <rect key="frame" x="20" y="391" width="372" height="335"/>
+                                                <string key="text">Who: The country of Japan
+ 
+What: Japan's population is on track to collapse. There are strong negative effects on the economy because there is a shrinking labor pool. 
+Where: Japan
+
+Why: Low death rate compared to birth rate create an older population.
+
+How: There is a high life expectancy in Japan. Most senior citizens cannot contribute the the GDP in meaningful ways.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="dm1-5X-UGZ" firstAttribute="top" secondItem="he6-hf-ilN" secondAttribute="bottom" constant="8" id="12v-5Y-IR4"/>
+                                            <constraint firstItem="dm1-5X-UGZ" firstAttribute="centerX" secondItem="5Fg-ZW-NcF" secondAttribute="centerX" id="CHC-7L-lYB"/>
+                                            <constraint firstAttribute="trailing" secondItem="he6-hf-ilN" secondAttribute="trailing" constant="18" id="UXt-Yk-H6y"/>
+                                            <constraint firstItem="KP5-lU-LBX" firstAttribute="top" secondItem="4QB-7D-cNZ" secondAttribute="bottom" constant="330" id="cNM-du-1Mh"/>
+                                            <constraint firstAttribute="trailing" secondItem="KP5-lU-LBX" secondAttribute="trailing" constant="22" id="cSO-Rl-TS2"/>
+                                            <constraint firstItem="KP5-lU-LBX" firstAttribute="top" secondItem="he6-hf-ilN" secondAttribute="bottom" constant="304" id="hLQ-1t-6GR"/>
+                                            <constraint firstItem="he6-hf-ilN" firstAttribute="top" secondItem="4QB-7D-cNZ" secondAttribute="bottom" constant="8" id="hcx-xg-nSU"/>
+                                            <constraint firstItem="4QB-7D-cNZ" firstAttribute="centerX" secondItem="5Fg-ZW-NcF" secondAttribute="centerX" constant="-8" id="lSl-eA-buC"/>
+                                            <constraint firstItem="he6-hf-ilN" firstAttribute="top" secondItem="4QB-7D-cNZ" secondAttribute="bottom" constant="8" id="pdX-C3-e1C"/>
+                                            <constraint firstItem="he6-hf-ilN" firstAttribute="leading" secondItem="5Fg-ZW-NcF" secondAttribute="leading" constant="44" id="ph3-0F-bzy"/>
+                                            <constraint firstItem="KP5-lU-LBX" firstAttribute="leading" secondItem="5Fg-ZW-NcF" secondAttribute="leading" constant="20" id="pss-Iu-9ld"/>
+                                            <constraint firstItem="dm1-5X-UGZ" firstAttribute="top" secondItem="he6-hf-ilN" secondAttribute="bottom" constant="8" id="qvp-qI-8iN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5Fg-ZW-NcF" firstAttribute="width" secondItem="qMW-zi-vF5" secondAttribute="width" multiplier="0.961353" constant="15.999858000000017" id="2st-BO-3ed"/>
+                                    <constraint firstItem="5Fg-ZW-NcF" firstAttribute="height" secondItem="qMW-zi-vF5" secondAttribute="height" multiplier="0.979328" priority="250" constant="16.000128000000018" id="D8y-mK-eip"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Fg-ZW-NcF" secondAttribute="bottom" id="Y1C-Vd-aU6"/>
+                                    <constraint firstItem="5Fg-ZW-NcF" firstAttribute="top" secondItem="qMW-zi-vF5" secondAttribute="top" id="bRH-Fu-Rnu"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Fg-ZW-NcF" secondAttribute="trailing" id="gWP-Fj-RS7"/>
+                                    <constraint firstItem="5Fg-ZW-NcF" firstAttribute="leading" secondItem="qMW-zi-vF5" secondAttribute="leading" id="rJR-4u-9G8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="2000" height="1000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qMW-zi-vF5" firstAttribute="bottom" secondItem="1yt-wB-Fm8" secondAttribute="bottom" id="8Ys-oN-lto"/>
+                            <constraint firstItem="1yt-wB-Fm8" firstAttribute="trailing" secondItem="qMW-zi-vF5" secondAttribute="trailing" id="CxP-tz-u7o"/>
+                            <constraint firstItem="qMW-zi-vF5" firstAttribute="top" secondItem="1yt-wB-Fm8" secondAttribute="top" id="Mai-bu-PWA"/>
+                            <constraint firstItem="qMW-zi-vF5" firstAttribute="leading" secondItem="1yt-wB-Fm8" secondAttribute="leading" id="NaF-Fb-6K7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1yt-wB-Fm8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yIq-eC-38P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RG9-7M-yY0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="3Pi-vz-k5L" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1721.7391304347827" y="115.84821428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4lO-bY-2mh">
+            <objects>
+                <viewController id="xDW-Jy-eda" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Eu-Zs-UJ4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qvz-88-HxG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="1412"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCs-sy-1vH">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1448.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Pakistan men can marry underage girls after they have their first period " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2O-Py-KF3">
+                                                <rect key="frame" x="32.5" y="64.5" width="349" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="349" id="oHz-mn-7TP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Underage Marriages In Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOH-80-8V8">
+                                                <rect key="frame" x="17" y="35" width="380.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pakistan-child-marriage" translatesAutoresizingMaskIntoConstraints="NO" id="feN-ma-jD5">
+                                                <rect key="frame" x="-118" y="125.5" width="650" height="246"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="246" id="ahd-Bn-kLV"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-85-h4l">
+                                                <rect key="frame" x="27.5" y="379.5" width="360" height="946"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="946" id="C2J-eD-RSZ"/>
+                                                </constraints>
+                                                <mutableString key="text">Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+ 
+What: Using illegal clearence methods to harvest palm oil has caused wildfires to break out, lowering air quality, polluting the Earth, and harming biodiversity.
+
+When: 
+Where: Indonesia, 40% in the region Papua which is one of the most biodiverse areas on Earth
+
+Why: Palm oil is used in many household products like shampoo, toothpaste, cosmetics, and food.
+
+How: Illegal burn and slash methods increase risk of uncontrolled fires.Who: Palm oil sourcing groups. Their major custotmers include General Mills, Hershey, Kellogg’s, Kraft Heinz, L’Oreal, Mars, Mondelez, Nestlé, PepsiCo
+
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="tOH-80-8V8" firstAttribute="top" secondItem="OCs-sy-1vH" secondAttribute="top" constant="35" id="4Tz-eV-2R0"/>
+                                            <constraint firstItem="n2O-Py-KF3" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="EEt-Bm-nOJ"/>
+                                            <constraint firstItem="feN-ma-jD5" firstAttribute="top" secondItem="tOH-80-8V8" secondAttribute="bottom" constant="57" id="GVX-yg-QeT"/>
+                                            <constraint firstItem="bZs-85-h4l" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" constant="0.5" id="OW3-Vv-Ia4"/>
+                                            <constraint firstItem="tOH-80-8V8" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="QWX-1r-iB5"/>
+                                            <constraint firstItem="n2O-Py-KF3" firstAttribute="top" secondItem="tOH-80-8V8" secondAttribute="bottom" constant="-4" id="TNR-hB-SWk"/>
+                                            <constraint firstItem="feN-ma-jD5" firstAttribute="top" secondItem="n2O-Py-KF3" secondAttribute="bottom" constant="20" id="VRT-ET-jwV"/>
+                                            <constraint firstAttribute="bottom" secondItem="bZs-85-h4l" secondAttribute="bottom" constant="123" id="lZb-ux-Ioh"/>
+                                            <constraint firstItem="bZs-85-h4l" firstAttribute="top" secondItem="feN-ma-jD5" secondAttribute="bottom" constant="8" id="tvf-jl-S7x"/>
+                                            <constraint firstItem="feN-ma-jD5" firstAttribute="centerX" secondItem="OCs-sy-1vH" secondAttribute="centerX" id="xIJ-PR-Vtm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="OCs-sy-1vH" secondAttribute="bottom" id="G4l-hM-Lcx"/>
+                                    <constraint firstItem="OCs-sy-1vH" firstAttribute="width" secondItem="Qvz-88-HxG" secondAttribute="width" id="Ja7-SJ-lTs"/>
+                                    <constraint firstAttribute="trailing" secondItem="OCs-sy-1vH" secondAttribute="trailing" id="USh-EQ-wRu"/>
+                                    <constraint firstItem="OCs-sy-1vH" firstAttribute="leading" secondItem="Qvz-88-HxG" secondAttribute="leading" id="bwN-bO-dzC"/>
+                                    <constraint firstItem="OCs-sy-1vH" firstAttribute="top" secondItem="Qvz-88-HxG" secondAttribute="top" id="dFe-NM-0cd"/>
+                                    <constraint firstItem="OCs-sy-1vH" firstAttribute="height" secondItem="Qvz-88-HxG" secondAttribute="height" priority="250" id="zfL-e2-Smm"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="BVo-g1-FhN"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="b0H-Ot-yxA"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qvz-88-HxG" firstAttribute="leading" secondItem="4Eu-Zs-UJ4" secondAttribute="leading" id="Sof-Xr-mRx"/>
+                            <constraint firstAttribute="bottom" secondItem="Qvz-88-HxG" secondAttribute="bottom" id="XYi-ex-pvU"/>
+                            <constraint firstItem="Qvz-88-HxG" firstAttribute="leading" secondItem="TJz-8e-fX7" secondAttribute="leading" id="aGW-iR-25h"/>
+                            <constraint firstItem="TJz-8e-fX7" firstAttribute="trailing" secondItem="Qvz-88-HxG" secondAttribute="trailing" id="b55-RQ-4up"/>
+                            <constraint firstAttribute="trailing" secondItem="Qvz-88-HxG" secondAttribute="trailing" id="eVf-f6-frw"/>
+                            <constraint firstItem="Qvz-88-HxG" firstAttribute="centerX" secondItem="TJz-8e-fX7" secondAttribute="centerX" id="f5w-Ui-dfy"/>
+                            <constraint firstItem="Qvz-88-HxG" firstAttribute="bottom" secondItem="TJz-8e-fX7" secondAttribute="bottom" constant="34" id="sck-ec-6RX"/>
+                            <constraint firstItem="Qvz-88-HxG" firstAttribute="top" secondItem="TJz-8e-fX7" secondAttribute="top" id="vIB-hV-kNW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TJz-8e-fX7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WED-8a-PUX"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="de9-7v-LvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71.014492753623188" y="-777.45535714285711"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iEN-ef-c5F"/>
+        <segue reference="Xer-EO-Gc0"/>
+        <segue reference="7gX-VT-eYu"/>
+        <segue reference="wzW-iK-Nbu"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="idonesia-forest-preview" width="1200" height="802"/>
+        <image name="indonesia-deforestation" width="1000" height="667"/>
+        <image name="indonesia-fire" width="884" height="884"/>
+        <image name="japan-article-chart" width="600" height="450"/>
+        <image name="japan-pop-decl" width="690" height="663"/>
         <image name="myanmar-front" width="1280" height="861"/>
+        <image name="pakistan-child-marriage" width="650" height="425"/>
+        <image name="rohingya-crisis" width="676" height="676"/>
     </resources>
 </document>
