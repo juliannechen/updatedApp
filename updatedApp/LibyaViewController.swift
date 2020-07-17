@@ -22,6 +22,12 @@ class LibyaViewController: UIViewController {
         
     }
     
+    @IBAction func youtubeButtonTapped(_ sender: Any) {
+                UIApplication.shared.open(URL(string:"https://www.youtube.com/watch?v=2S2qtGisT34")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func articleButtonTapped(_ sender: Any) {
+                        UIApplication.shared.open(URL(string:"https://time.com/5042560/libya-slave-trade/")! as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 
