@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D8688AD224BFDD7400F3EAB8 /* RohingyaArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8688AD124BFDD7400F3EAB8 /* RohingyaArticleViewController.swift */; };
 		D86FB0EF24C118FE00F1AED6 /* LibyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FB0EE24C118FE00F1AED6 /* LibyaViewController.swift */; };
+		D8AC5CAD24C1E2CC00B633C4 /* IndonesiaPalmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC5CAC24C1E2CB00B633C4 /* IndonesiaPalmViewController.swift */; };
 		D8EBBB7D24BE50E7006E850D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EBBB7C24BE50E7006E850D /* AppDelegate.swift */; };
 		D8EBBB7F24BE50E7006E850D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EBBB7E24BE50E7006E850D /* SceneDelegate.swift */; };
 		D8EBBB8124BE50E7006E850D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EBBB8024BE50E7006E850D /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		D8688AD124BFDD7400F3EAB8 /* RohingyaArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RohingyaArticleViewController.swift; sourceTree = "<group>"; };
 		D86FB0EE24C118FE00F1AED6 /* LibyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibyaViewController.swift; sourceTree = "<group>"; };
+		D8AC5CAC24C1E2CB00B633C4 /* IndonesiaPalmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndonesiaPalmViewController.swift; sourceTree = "<group>"; };
 		D8EBBB7924BE50E7006E850D /* updatedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = updatedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EBBB7C24BE50E7006E850D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8EBBB7E24BE50E7006E850D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				D8688AD124BFDD7400F3EAB8 /* RohingyaArticleViewController.swift */,
 				D86FB0EE24C118FE00F1AED6 /* LibyaViewController.swift */,
 				D8EBBB8224BE50E7006E850D /* Main.storyboard */,
+				D8AC5CAC24C1E2CB00B633C4 /* IndonesiaPalmViewController.swift */,
 				D8EBBB8824BE50E9006E850D /* Assets.xcassets */,
 				D8EBBB8A24BE50E9006E850D /* LaunchScreen.storyboard */,
 				D8EBBB8D24BE50E9006E850D /* Info.plist */,
@@ -274,6 +277,7 @@
 				D8688AD224BFDD7400F3EAB8 /* RohingyaArticleViewController.swift in Sources */,
 				D8EBBB7F24BE50E7006E850D /* SceneDelegate.swift in Sources */,
 				D8EBBB8724BE50E7006E850D /* updatedApp.xcdatamodeld in Sources */,
+				D8AC5CAD24C1E2CC00B633C4 /* IndonesiaPalmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

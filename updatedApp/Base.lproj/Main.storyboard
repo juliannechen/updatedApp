@@ -270,43 +270,34 @@ Economic repercussions of  pandemic could thrust hundreds of millions more into 
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Indonesia Palm View Controller-->
         <scene sceneID="U68-59-dg2">
             <objects>
-                <viewController storyboardIdentifier="Deforestation" id="Sbt-ap-e2L" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="indoPalm" id="Sbt-ap-e2L" customClass="IndonesiaPalmViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tqs-4g-JvV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7TX-jL-TuK">
-                                <rect key="frame" x="0.0" y="88" width="414" height="912"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1112"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P02-JB-f5I">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1093"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In under 3 years, companies have destroyed an area of the rainforest 2x the size of Singapore" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ou3-on-Gn8">
-                                                <rect key="frame" x="32.5" y="72" width="349" height="41"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="349" id="cTT-wu-GHH"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deforestation For Palm Oil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBu-Yu-Grj">
                                                 <rect key="frame" x="19" y="35" width="376" height="41"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-deforestation" translatesAutoresizingMaskIntoConstraints="NO" id="jfo-49-QAu">
-                                                <rect key="frame" x="-293" y="133" width="1000" height="246"/>
+                                                <rect key="frame" x="-299" y="84" width="1000" height="246"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="246" id="Mfo-Rh-cJI"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" translatesAutoresizingMaskIntoConstraints="NO" id="xzi-UK-9FX">
-                                                <rect key="frame" x="27.5" y="387" width="360" height="412"/>
+                                                <rect key="frame" x="27.5" y="349" width="360" height="412"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="412" id="SMu-JJ-aXO"/>
                                                 </constraints>
@@ -325,19 +316,53 @@ How: Illegal burn and slash methods increase risk of uncontrolled fires.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-Sg-Lp1">
+                                                <rect key="frame" x="34" y="816" width="350" height="108"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Palm oil is in more than half of packaged consumer goods in the US. While palm oil would be difficult to remove from your diet, you can make sure it is sourced sustainably.  </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Be a convious buyer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6d-Mu-o0O">
+                                                <rect key="frame" x="34" y="799" width="161" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trn-cR-lwI">
+                                                <rect key="frame" x="36" y="919" width="315" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Check companies' palm oil sustanability score"/>
+                                                <connections>
+                                                    <action selector="checkButtonTapped:" destination="Sbt-ap-e2L" eventType="touchUpInside" id="vZb-wd-EZf"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S10-RE-Wf3">
+                                                <rect key="frame" x="19" y="757" width="244" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adapted from the World Wildlife Organization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHb-pr-IFG">
+                                                <rect key="frame" x="49" y="970" width="347" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstItem="ou3-on-Gn8" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="00u-hX-hWR"/>
                                             <constraint firstItem="sBu-Yu-Grj" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="Jel-4l-gAB"/>
-                                            <constraint firstItem="jfo-49-QAu" firstAttribute="top" secondItem="sBu-Yu-Grj" secondAttribute="bottom" constant="57" id="Lh7-Ja-DxP"/>
+                                            <constraint firstItem="jfo-49-QAu" firstAttribute="top" secondItem="sBu-Yu-Grj" secondAttribute="bottom" constant="8" id="Lh7-Ja-DxP"/>
                                             <constraint firstItem="sBu-Yu-Grj" firstAttribute="top" secondItem="P02-JB-f5I" secondAttribute="top" constant="35" id="U6U-yZ-wqD"/>
-                                            <constraint firstAttribute="bottom" secondItem="xzi-UK-9FX" secondAttribute="bottom" constant="117" id="Xre-4s-2Rp"/>
-                                            <constraint firstItem="jfo-49-QAu" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" id="cUz-GM-7tN"/>
+                                            <constraint firstAttribute="bottom" secondItem="xzi-UK-9FX" secondAttribute="bottom" constant="332" id="Xre-4s-2Rp"/>
+                                            <constraint firstItem="jfo-49-QAu" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" constant="-6" id="cUz-GM-7tN"/>
                                             <constraint firstItem="xzi-UK-9FX" firstAttribute="centerX" secondItem="P02-JB-f5I" secondAttribute="centerX" constant="0.5" id="jWd-xJ-9dU"/>
-                                            <constraint firstItem="jfo-49-QAu" firstAttribute="top" secondItem="ou3-on-Gn8" secondAttribute="bottom" constant="20" id="q6s-AM-00O"/>
-                                            <constraint firstItem="ou3-on-Gn8" firstAttribute="top" secondItem="sBu-Yu-Grj" secondAttribute="bottom" constant="-4" id="s0z-DN-dr4"/>
-                                            <constraint firstItem="xzi-UK-9FX" firstAttribute="top" secondItem="jfo-49-QAu" secondAttribute="bottom" constant="8" id="xed-U5-6uo"/>
+                                            <constraint firstItem="xzi-UK-9FX" firstAttribute="top" secondItem="jfo-49-QAu" secondAttribute="bottom" constant="19" id="xed-U5-6uo"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -367,25 +392,25 @@ How: Illegal burn and slash methods increase risk of uncontrolled fires.
                         <viewLayoutGuide key="safeArea" id="zge-Ek-XKE"/>
                     </view>
                     <navigationItem key="navigationItem" id="nrl-2T-oJ8"/>
-                    <size key="freeformSize" width="414" height="1000"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1j-Er-QUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1723" y="903"/>
+            <point key="canvasLocation" x="1721.7391304347827" y="902.67857142857133"/>
         </scene>
         <!--Social-->
         <scene sceneID="GGg-df-6Gg">
             <objects>
                 <viewController id="3FY-ck-CWn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gr0-fE-rYQ">
+                    <view key="view" contentMode="scaleToFill" id="gr0-fE-rYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-LG-Lx3">
-                                <rect key="frame" x="-1" y="88" width="414" height="833"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-LG-Lx3">
+                                <rect key="frame" x="-1" y="88" width="415" height="833"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMu-G5-pXw">
-                                        <rect key="frame" x="1" y="0.0" width="412" height="820"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMu-G5-pXw">
+                                        <rect key="frame" x="1" y="0.0" width="413" height="820"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
                                                 <rect key="frame" x="25" y="66" width="154" height="40"/>
@@ -542,7 +567,7 @@ Violates the Child Marriage Restraint Act</string>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Rohingya Crisis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Me-Uh-cS2">
                                                 <rect key="frame" x="86" y="20" width="226" height="41"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB5-Qx-tYF">
@@ -793,7 +818,7 @@ Your Title
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Japan Population Crisis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-7D-cNZ">
                                                 <rect key="frame" x="28.5" y="20" width="341" height="41"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Economic implications of a high life expectancy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he6-hf-ilN">
@@ -903,7 +928,7 @@ How: There is a high life expectancy in Japan. Most senior citizens cannot contr
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Underage Marriages In Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOH-80-8V8">
                                                 <rect key="frame" x="17" y="35" width="380.5" height="33.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pakistan-child-marriage" translatesAutoresizingMaskIntoConstraints="NO" id="feN-ma-jD5">
@@ -936,7 +961,7 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-VK-wXZ">
                                                 <rect key="frame" x="32" y="845" width="244" height="34"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eft-bl-mXw">
@@ -1046,11 +1071,11 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COVID-19 Impact on Poverty Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arI-5P-XSd">
                                                 <rect key="frame" x="17" y="35" width="380.5" height="31.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.19748798009999999" green="0.30488044019999999" blue="0.37256175279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poverty-COVID" translatesAutoresizingMaskIntoConstraints="NO" id="o0I-FY-Tk4">
-                                                <rect key="frame" x="-28.5" y="123.5" width="471" height="246"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poverty-COVID-big" translatesAutoresizingMaskIntoConstraints="NO" id="o0I-FY-Tk4">
+                                                <rect key="frame" x="-101" y="123.5" width="616" height="246"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="246" id="rPX-E0-acy"/>
                                                 </constraints>
@@ -1078,7 +1103,7 @@ How: Health restrictions with COVID-19 has significantly limited business.
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgZ-Do-7nq">
                                                 <rect key="frame" x="32.5" y="843" width="244" height="34"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read the article and take a quiz to check your understanding" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz2-ni-Bnk">
@@ -1090,10 +1115,6 @@ How: Health restrictions with COVID-19 has significantly limited business.
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j25-m6-cqr">
-                                                <rect key="frame" x="47" y="941" width="147" height="30"/>
-                                                <state key="normal" title="Go to article and quiz"/>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Article adapted from Global Citizen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6Z-b1-C3N">
                                                 <rect key="frame" x="113" y="1345" width="268" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
@@ -1104,12 +1125,16 @@ How: Health restrictions with COVID-19 has significantly limited business.
                                                 <rect key="frame" x="14" y="968" width="397" height="358"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j25-m6-cqr">
+                                                <rect key="frame" x="47" y="930" width="147" height="30"/>
+                                                <state key="normal" title="Go to article and quiz"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="Lz2-ni-Bnk" firstAttribute="leading" secondItem="OTI-K5-ywX" secondAttribute="leading" constant="47" id="1bE-ZM-dpX"/>
-                                            <constraint firstAttribute="bottom" secondItem="j25-m6-cqr" secondAttribute="bottom" constant="475.5" id="9Gq-bH-73X"/>
-                                            <constraint firstItem="I6Z-b1-C3N" firstAttribute="top" secondItem="j25-m6-cqr" secondAttribute="bottom" constant="374" id="ARa-7q-adm"/>
+                                            <constraint firstAttribute="bottom" secondItem="j25-m6-cqr" secondAttribute="bottom" constant="486.5" id="9Gq-bH-73X"/>
+                                            <constraint firstItem="I6Z-b1-C3N" firstAttribute="top" secondItem="j25-m6-cqr" secondAttribute="bottom" constant="385" id="ARa-7q-adm"/>
                                             <constraint firstItem="JgZ-Do-7nq" firstAttribute="leading" secondItem="EgJ-VI-hab" secondAttribute="leading" id="Ddd-ek-b3u"/>
                                             <constraint firstItem="o0I-FY-Tk4" firstAttribute="top" secondItem="arI-5P-XSd" secondAttribute="bottom" constant="57" id="E6k-N7-jcj"/>
                                             <constraint firstItem="EgJ-VI-hab" firstAttribute="centerX" secondItem="OTI-K5-ywX" secondAttribute="centerX" constant="5" id="Fp6-Iz-VDg"/>
@@ -1131,8 +1156,8 @@ How: Health restrictions with COVID-19 has significantly limited business.
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="OTI-K5-ywX" secondAttribute="bottom" id="BgF-YW-ggD"/>
-                                    <constraint firstItem="OTI-K5-ywX" firstAttribute="height" secondItem="ZFl-c2-kEq" secondAttribute="height" priority="250" id="HRd-Qy-DYh"/>
+                                    <constraint firstAttribute="bottom" secondItem="OTI-K5-ywX" secondAttribute="bottom" constant="-34.5" id="BgF-YW-ggD"/>
+                                    <constraint firstItem="OTI-K5-ywX" firstAttribute="height" secondItem="ZFl-c2-kEq" secondAttribute="height" priority="250" constant="34.5" id="HRd-Qy-DYh"/>
                                     <constraint firstItem="OTI-K5-ywX" firstAttribute="width" secondItem="ZFl-c2-kEq" secondAttribute="width" id="JCb-BD-Dqi"/>
                                     <constraint firstItem="OTI-K5-ywX" firstAttribute="top" secondItem="ZFl-c2-kEq" secondAttribute="top" id="WtB-kb-j6C"/>
                                     <constraint firstItem="OTI-K5-ywX" firstAttribute="leading" secondItem="ZFl-c2-kEq" secondAttribute="leading" id="YIv-Zm-8y2"/>
@@ -1188,7 +1213,7 @@ How: Health restrictions with COVID-19 has significantly limited business.
                                                     <constraint firstAttribute="height" constant="71" id="8HF-NZ-Apj"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Libyan slave trade" translatesAutoresizingMaskIntoConstraints="NO" id="f9l-Ev-XfR">
@@ -1214,7 +1239,7 @@ How: Many, in a desperate effort, will see ads online for "job openings" in Liby
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updates/Next Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pi9-2A-cho">
                                                 <rect key="frame" x="29" y="823" width="244" height="34"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.22077680209898337" green="0.301526814106371" blue="0.36568507595647681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-r7-jmR">
@@ -1368,13 +1393,13 @@ How: Many, in a desperate effort, will see ads online for "job openings" in Liby
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tSE-pU-0ad"/>
+        <segue reference="f8A-bE-O6n"/>
         <segue reference="gWb-vH-OW5"/>
         <segue reference="lAH-4V-Z40"/>
         <segue reference="Xer-EO-Gc0"/>
         <segue reference="xY4-uf-r1o"/>
-        <segue reference="iEN-ef-c5F"/>
-        <segue reference="lmQ-27-NOH"/>
+        <segue reference="7gX-VT-eYu"/>
+        <segue reference="wzW-iK-Nbu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="COVID-graph" width="960" height="720"/>
@@ -1391,6 +1416,7 @@ How: Many, in a desperate effort, will see ads online for "job openings" in Liby
         <image name="myanmar-front" width="1280" height="861"/>
         <image name="pakistan-child-marriage" width="650" height="425"/>
         <image name="poverty-COVID" width="471" height="470"/>
+        <image name="poverty-COVID-big" width="616" height="474"/>
         <image name="rohingya-crisis" width="676" height="676"/>
         <image name="updated-icon" width="898" height="898"/>
     </resources>
