@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-684" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="updatedApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,22 +32,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cl-7Z-ynC">
-                                <rect key="frame" x="90" y="779" width="40" height="30"/>
+                                <rect key="frame" x="80" y="756" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="social"/>
                                 <connections>
                                     <segue destination="3FY-ck-CWn" kind="show" id="Hki-FP-sjB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="editor's pick ⤴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnz-cS-KGK">
-                                <rect key="frame" x="20" y="645" width="144" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.19607549909999999" green="0.19607689980000001" blue="0.1960805357" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edL-wJ-285">
-                                <rect key="frame" x="260" y="779" width="97" height="30"/>
+                                <rect key="frame" x="250" y="756" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="environmental"/>
                                 <connections>
@@ -62,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aP-F8-6AG">
-                                <rect key="frame" x="222" y="221" width="172" height="173"/>
+                                <rect key="frame" x="219" y="258" width="172" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="rohingya-crisis"/>
                                 <connections>
@@ -70,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-SL-6W2">
-                                <rect key="frame" x="20" y="222" width="186" height="173"/>
+                                <rect key="frame" x="17" y="259" width="186" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="indonesia-fire"/>
                                 <connections>
@@ -78,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06p-T2-Ovo">
-                                <rect key="frame" x="222" y="443" width="172" height="164"/>
+                                <rect key="frame" x="219" y="480" width="172" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Child-Marrige-Pakistan"/>
                                 <connections>
@@ -89,43 +82,50 @@
                                 <rect key="frame" x="98" y="109" width="113" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="explore articles by issue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cB9-y0-eSe">
-                                <rect key="frame" x="104" y="733" width="224" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCN-fh-4nT">
+                                <rect key="frame" x="133" y="758" width="7" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
-                                <color key="textColor" red="0.19748798009999999" green="0.30488044019999999" blue="0.37256175279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98I-Lx-dbn">
+                                <rect key="frame" x="234" y="758" width="7" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indonesia | deforestation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mey-TE-1uN">
-                                <rect key="frame" x="20" y="389" width="190" height="61"/>
+                                <rect key="frame" x="17" y="426" width="190" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Libya | slavery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99G-8o-la8">
-                                <rect key="frame" x="16" y="597" width="190" height="61"/>
+                                <rect key="frame" x="13" y="634" width="190" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Myanmar | genocide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-zj-738">
-                                <rect key="frame" x="230" y="409" width="156" height="21"/>
+                                <rect key="frame" x="227" y="446" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pakistan | woman rights" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jf3-Vw-4X4">
-                                <rect key="frame" x="213" y="597" width="190" height="61"/>
+                                <rect key="frame" x="210" y="634" width="190" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.41757150040000002" green="0.50616632240000003" blue="0.72854598449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2B-Ia-V4y">
-                                <rect key="frame" x="164" y="779" width="67" height="30"/>
+                                <rect key="frame" x="154" y="756" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="economic"/>
                                 <connections>
@@ -133,18 +133,36 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m16-Ik-eyW">
-                                <rect key="frame" x="26" y="443" width="179" height="167"/>
+                                <rect key="frame" x="23" y="480" width="179" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="libyan-slave-square"/>
                                 <connections>
                                     <segue destination="vjo-bz-W5q" kind="show" id="f8A-bE-O6n"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="credible. concise. convenient." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dy-4i-fDG">
+                                <rect key="frame" x="90" y="178" width="271" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.2207768021" green="0.30152681409999998" blue="0.365685076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globe-flag-banner" translatesAutoresizingMaskIntoConstraints="NO" id="CfV-S9-Fbs">
+                                <rect key="frame" x="0.0" y="756" width="419" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="explore articles by issue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cB9-y0-eSe">
+                                <rect key="frame" x="95" y="722" width="224" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" red="0.19748798009999999" green="0.30488044019999999" blue="0.37256175279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="RC7-A7-j89"/>
+                    <navigationItem key="navigationItem" title="Home" id="RC7-A7-j89"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="b31-Le-3Y1">
@@ -155,7 +173,7 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Economic-->
         <scene sceneID="oix-PQ-zGs">
             <objects>
                 <viewController id="wgb-hC-aq6" sceneMemberID="viewController">
@@ -246,7 +264,7 @@ Economic repercussions of  pandemic could thrust hundreds of millions more into 
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aXM-fc-eSW"/>
                     </view>
-                    <navigationItem key="navigationItem" id="j6T-RH-27S"/>
+                    <navigationItem key="navigationItem" title="Economic" id="j6T-RH-27S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKu-c1-vLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -355,19 +373,19 @@ How: Illegal burn and slash methods increase risk of uncontrolled fires.
             </objects>
             <point key="canvasLocation" x="1723" y="903"/>
         </scene>
-        <!--View Controller-->
+        <!--Social-->
         <scene sceneID="GGg-df-6Gg">
             <objects>
                 <viewController id="3FY-ck-CWn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gr0-fE-rYQ">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gr0-fE-rYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-LG-Lx3">
-                                <rect key="frame" x="-1" y="88" width="415" height="833"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzz-LG-Lx3">
+                                <rect key="frame" x="-1" y="88" width="414" height="833"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMu-G5-pXw">
-                                        <rect key="frame" x="1" y="0.0" width="413" height="820"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMu-G5-pXw">
+                                        <rect key="frame" x="1" y="0.0" width="412" height="820"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFw-NU-nSm">
                                                 <rect key="frame" x="25" y="66" width="154" height="40"/>
@@ -500,7 +518,7 @@ Violates the Child Marriage Restraint Act</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nEf-15-gTy"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Svr-7c-VdR"/>
+                    <navigationItem key="navigationItem" title="Social" id="Svr-7c-VdR"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mb-NQ-Iqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -603,7 +621,7 @@ How: Myanmar's armed forces and police use violence to launch the major crackdow
             </objects>
             <point key="canvasLocation" x="1679.7101449275362" y="-485.49107142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Environmental-->
         <scene sceneID="Tnh-VC-EaI">
             <objects>
                 <viewController id="I5n-VX-7ai" sceneMemberID="viewController">
@@ -658,7 +676,7 @@ Farmers use thte slash and burn method to illegally acquire palm oil for large U
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iAP-7I-1xT"/>
                     </view>
-                    <navigationItem key="navigationItem" id="F47-vR-t2P"/>
+                    <navigationItem key="navigationItem" title="Environmental" id="F47-vR-t2P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Azq-NM-cfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1042,7 +1060,7 @@ How: Sharia law is the religious law of Islam derived from the teachings of the 
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="467" id="tAq-Hf-kfn"/>
                                                 </constraints>
-                                                <mutableString key="text">Who: Those living close to the poverty line.
+                                                <string key="text">Who: Those living close to the poverty line.
  
 What: The pandemic has created an economic depression around the world. A 5% drop in income could result in pushing 124 million people over the poverty line.
 
@@ -1052,7 +1070,7 @@ Where: Global. India, develoiping Asian countries, and Sub-Saharan African will 
 Why: Global trade is at all time lows. Plans of no poverty and zero hunger by 2030 is now "under considerable threat”.
 
 How: Health restrictions with COVID-19 has significantly limited business.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1350,19 +1368,20 @@ How: Many, in a desperate effort, will see ads online for "job openings" in Liby
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f8A-bE-O6n"/>
+        <segue reference="tSE-pU-0ad"/>
         <segue reference="gWb-vH-OW5"/>
-        <segue reference="fkB-qL-rAk"/>
+        <segue reference="lAH-4V-Z40"/>
         <segue reference="Xer-EO-Gc0"/>
         <segue reference="xY4-uf-r1o"/>
         <segue reference="iEN-ef-c5F"/>
-        <segue reference="wzW-iK-Nbu"/>
+        <segue reference="lmQ-27-NOH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="COVID-graph" width="960" height="720"/>
         <image name="Child-Marrige-Pakistan" width="599" height="598"/>
         <image name="IOM-logo" width="1200" height="602"/>
         <image name="Libyan slave trade" width="299" height="168"/>
+        <image name="globe-flag-banner" width="1000" height="150"/>
         <image name="idonesia-forest-preview" width="1200" height="802"/>
         <image name="indonesia-deforestation" width="1000" height="667"/>
         <image name="indonesia-fire" width="884" height="884"/>
